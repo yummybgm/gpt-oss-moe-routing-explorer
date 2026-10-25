@@ -1,0 +1,142 @@
+{
+  "contract_version": "routing_sae_explorer_api_v1",
+  "status": "frozen",
+  "created_date": "2026-10-11",
+  "research": {
+    "model": "GPT-OSS-20B",
+    "dataset": "MMLU-Pro five-domain subset",
+    "sample_count": 2000,
+    "token_count": 382685,
+    "routing_layers": 24,
+    "experts_per_layer": 32
+  },
+  "service": {
+    "framework": "FastAPI",
+    "response_format": "application/json",
+    "default_response_class": "FastAPI native JSON serialization",
+    "read_only": true,
+    "model_inference": false,
+    "sae_inference": false,
+    "source_artifacts_mutable": false
+  },
+  "canonical_identifiers": {
+    "token": "token_row",
+    "token_alias_note": "V00 descriptive text used token_row/global_token_index; the V01 physical column and V03 public API both use token_row.",
+    "sample": "sample_id",
+    "graph_node": "node_id = layer * 32 + expert_id",
+    "sae_feature": ["sae_layer", "feature_id"]
+  },
+  "filter_groups": {
+    "population": ["all_tokens", "primary_inference"],
+    "domain": ["computer science", "law", "math", "physics", "psychology"],
+    "token_class": ["code_symbol", "content", "mojibake", "number", "other", "punctuation", "whitespace"],
+    "prompt_segment": ["option_text", "question", "scaffold"]
+  },
+  "sae_layers": [3, 7, 11, 15, 19, 23],
+  "limits": {
+    "graph_edges_default": 25000,
+    "graph_edges_max": 25000,
+    "token_search_default": 30,
+    "token_search_max": 100,
+    "sample_tokens_max": 2048,
+    "expert_contexts_default": 40,
+    "expert_contexts_max": 100,
+    "sae_features_default": 15,
+    "sae_features_max": 100
+  },
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/health",
+      "purpose": "Service and immutable-source readiness check",
+      "parameters": [],
+      "response_keys": ["status", "api_version", "loaded", "source_counts"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/meta",
+      "purpose": "Filter vocabularies, layer inventory, limits and interpretation warnings",
+      "parameters": [],
+      "response_keys": ["api_version", "model", "dataset", "filter_groups", "sae_layers", "limits", "interpretation_warnings"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/graph",
+      "purpose": "Fixed-layout graph for one frozen filter group",
+      "parameters": ["group_type", "group_value", "edge_mode", "min_edge_value", "max_edges"],
+      "parameter_rules": {
+        "edge_mode": ["top1", "top4"],
+        "min_edge_value": ">= 0",
+        "max_edges": "1..25000"
+      },
+      "sorting": "edges by selected edge value descending, then layer/source/target ascending",
+      "response_keys": ["group", "edge_mode", "nodes", "edges", "edge_total_before_limit", "truncated", "warnings"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/tokens/search",
+      "purpose": "Find tokens without scanning source model outputs",
+      "parameters": ["q", "sample_id", "domain", "token_class", "prompt_segment", "primary_only", "offset", "limit"],
+      "parameter_rules": {
+        "offset": ">= 0",
+        "limit": "1..100",
+        "q": "case-insensitive literal substring over token_text"
+      },
+      "sorting": "token_row ascending",
+      "response_keys": ["query", "total_matches", "offset", "limit", "items"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/samples/{sample_id}/tokens",
+      "purpose": "Ordered token list for the selected sample",
+      "parameters": ["sample_id"],
+      "sorting": "token_position ascending",
+      "response_keys": ["sample_id", "domain", "token_count", "items"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/tokens/{token_row}",
+      "purpose": "Selected token metadata and complete 24-layer Top-1 trajectory",
+      "parameters": ["token_row"],
+      "response_keys": ["token", "trajectory", "path"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/nodes/{node_id}/contexts",
+      "purpose": "High-routing-weight context evidence for a selected layer-expert node",
+      "parameters": ["node_id", "domain", "limit"],
+      "parameter_rules": {
+        "node_id": "0..767",
+        "limit": "1..100"
+      },
+      "sorting": "display_rank ascending",
+      "response_keys": ["node", "context_group", "total_available", "items", "warnings"]
+    },
+    {
+      "method": "GET",
+      "path": "/api/tokens/{token_row}/sae",
+      "purpose": "Top sparse SAE activations and reconstruction metrics for one token and one SAE layer",
+      "parameters": ["token_row", "sae_layer", "passed_threshold_only", "limit"],
+      "parameter_rules": {
+        "sae_layer": [3, 7, 11, 15, 19, 23],
+        "limit": "1..100"
+      },
+      "sorting": "activation descending, then feature_id ascending",
+      "response_keys": ["token", "sae_layer", "metrics", "total_active_features", "items", "warnings"]
+    }
+  ],
+  "error_contract": {
+    "400": "Invalid filter pair or incompatible parameter combination",
+    "404": "Token, sample, node, group, SAE index row or source shard not found",
+    "422": "FastAPI type/range validation failure",
+    "500": "Unexpected server-side integrity failure; never silently return partial data"
+  },
+  "scientific_boundaries": [
+    "Graph coordinates are layout-derived and are not physical model coordinates.",
+    "Top-1 edges are observed dominant-expert transitions; Top-4 edges are weighted co-occurrence, not causal flow.",
+    "Expert contexts are high-routing-weight examples, not proof of expert functional specialization.",
+    "SAE activations at resid_post are associations and do not establish the cause of same-layer routing.",
+    "First-token SAE results must carry an anomaly warning and cannot be primary semantic evidence.",
+    "This API returns active feature IDs and evidence for the selected token; global feature semantics require a separately validated feature-context cache."
+  ]
+}

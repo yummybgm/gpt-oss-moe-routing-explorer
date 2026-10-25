@@ -1,0 +1,801 @@
+population,weighting,domain,from_layer,to_layer,rank,source_expert,target_expert,raw_pair_count,probability
+primary_inference,token_weighted,math,10,11,1,10,30,19732,0.020497797722928614
+primary_inference,token_weighted,math,10,11,2,25,12,16106,0.016731072882905342
+primary_inference,token_weighted,math,10,11,3,16,12,14966,0.015546829552065154
+primary_inference,token_weighted,math,10,11,4,10,15,14312,0.014867447851741045
+primary_inference,token_weighted,math,10,11,5,16,26,14014,0.014557882489819663
+primary_inference,token_weighted,math,10,11,6,26,9,12817,0.013314426992437463
+primary_inference,token_weighted,math,10,11,7,19,12,12666,0.013157566691598106
+primary_inference,token_weighted,math,10,11,8,10,9,11562,0.012010720518573922
+primary_inference,token_weighted,math,10,11,9,26,30,11241,0.011677262528047868
+primary_inference,token_weighted,math,10,11,10,18,30,10272,0.010670655696833708
+primary_inference,token_weighted,math,10,11,11,18,12,10053,0.01044315632011967
+primary_inference,token_weighted,math,10,11,12,16,8,9402,0.009766891049613563
+primary_inference,token_weighted,math,10,11,13,16,3,9277,0.009637039807196875
+primary_inference,token_weighted,math,10,11,14,16,6,9080,0.009432394249148176
+primary_inference,token_weighted,math,10,11,15,25,30,8999,0.009348250644062162
+primary_inference,token_weighted,math,10,11,16,14,8,8509,0.008839233773788747
+primary_inference,token_weighted,math,10,11,17,14,26,8425,0.008751973738884734
+primary_inference,token_weighted,math,10,11,18,13,12,8279,0.008600307487742043
+primary_inference,token_weighted,math,10,11,19,19,26,8076,0.008389429070057342
+primary_inference,token_weighted,math,10,11,20,10,12,8072,0.008385273830300008
+primary_inference,token_weighted,computer science,10,11,1,10,30,24108,0.021246069459524244
+primary_inference,token_weighted,computer science,10,11,2,25,12,18288,0.016116978524795895
+primary_inference,token_weighted,computer science,10,11,3,26,9,17164,0.015126411821937703
+primary_inference,token_weighted,computer science,10,11,4,26,30,14971,0.013193749206841607
+primary_inference,token_weighted,computer science,10,11,5,10,9,14747,0.01299634089595172
+primary_inference,token_weighted,computer science,10,11,6,10,15,14175,0.012492244673500755
+primary_inference,token_weighted,computer science,10,11,7,19,12,11971,0.010549887900280603
+primary_inference,token_weighted,computer science,10,11,8,25,30,11746,0.010351598302288526
+primary_inference,token_weighted,computer science,10,11,9,16,12,10507,0.00925968358267883
+primary_inference,token_weighted,computer science,10,11,10,18,30,10211,0.008998822600431479
+primary_inference,token_weighted,computer science,10,11,11,23,30,10118,0.008916862899928086
+primary_inference,token_weighted,computer science,10,11,12,19,7,9783,0.008621631720695442
+primary_inference,token_weighted,computer science,10,11,13,25,18,9483,0.008357245590039341
+primary_inference,token_weighted,computer science,10,11,14,16,26,9446,0.008324637967258422
+primary_inference,token_weighted,computer science,10,11,15,14,26,9009,0.007939515503602702
+primary_inference,token_weighted,computer science,10,11,16,19,18,8504,0.007494465516998266
+primary_inference,token_weighted,computer science,10,11,17,25,9,8359,0.00736667888718115
+primary_inference,token_weighted,computer science,10,11,18,0,18,8242,0.0072635682962252715
+primary_inference,token_weighted,computer science,10,11,19,10,12,8129,0.00716398285367814
+primary_inference,token_weighted,computer science,10,11,20,10,27,7880,0.006944542365233577
+primary_inference,token_weighted,physics,10,11,1,2,23,43145,0.03744341613785634
+primary_inference,token_weighted,physics,10,11,2,14,23,32877,0.02853232570087618
+primary_inference,token_weighted,physics,10,11,3,2,26,29645,0.02572743241179166
+primary_inference,token_weighted,physics,10,11,4,14,26,25247,0.0219106252690337
+primary_inference,token_weighted,physics,10,11,5,10,30,20165,0.01750020828415513
+primary_inference,token_weighted,physics,10,11,6,2,6,19092,0.01656900454059458
+primary_inference,token_weighted,physics,10,11,7,16,23,18626,0.016164586139383756
+primary_inference,token_weighted,physics,10,11,8,16,26,18614,0.016154171931627256
+primary_inference,token_weighted,physics,10,11,9,25,12,18538,0.016088215282502743
+primary_inference,token_weighted,physics,10,11,10,2,7,17298,0.015012080480997543
+primary_inference,token_weighted,physics,10,11,11,19,12,16662,0.01446012746990294
+primary_inference,token_weighted,physics,10,11,12,19,23,15968,0.013857839121318577
+primary_inference,token_weighted,physics,10,11,13,2,12,15358,0.013328450227029729
+primary_inference,token_weighted,physics,10,11,14,10,15,14868,0.0129032034103059
+primary_inference,token_weighted,physics,10,11,15,26,9,14667,0.012728765430384493
+primary_inference,token_weighted,physics,10,11,16,14,6,14488,0.012573420164683338
+primary_inference,token_weighted,physics,10,11,17,19,26,14288,0.012399850035408307
+primary_inference,token_weighted,physics,10,11,18,16,12,13851,0.01202059930294236
+primary_inference,token_weighted,physics,10,11,19,10,9,13377,0.011609238096560535
+primary_inference,token_weighted,physics,10,11,20,14,7,13183,0.011440875071163753
+primary_inference,token_weighted,law,10,11,1,5,11,77380,0.04322711834107973
+primary_inference,token_weighted,law,10,11,2,5,20,74016,0.041347872720772255
+primary_inference,token_weighted,law,10,11,3,5,21,68511,0.03827259116910976
+primary_inference,token_weighted,law,10,11,4,8,20,54301,0.03033439846263854
+primary_inference,token_weighted,law,10,11,5,8,21,53848,0.030081337146943152
+primary_inference,token_weighted,law,10,11,6,8,11,47576,0.026577583124776545
+primary_inference,token_weighted,law,10,11,7,5,30,42159,0.023551461387200573
+primary_inference,token_weighted,law,10,11,8,10,30,35895,0.020052176439041832
+primary_inference,token_weighted,law,10,11,9,5,7,32751,0.018295830353950663
+primary_inference,token_weighted,law,10,11,10,10,11,30411,0.01698862620664998
+primary_inference,token_weighted,law,10,11,11,15,20,28875,0.01613056399713979
+primary_inference,token_weighted,law,10,11,12,11,11,27411,0.015312723453700394
+primary_inference,token_weighted,law,10,11,13,8,7,24832,0.01387200572041473
+primary_inference,token_weighted,law,10,11,14,8,30,23330,0.01303293707543797
+primary_inference,token_weighted,law,10,11,15,10,21,22800,0.012736860922416875
+primary_inference,token_weighted,law,10,11,16,10,20,21685,0.012113983732570612
+primary_inference,token_weighted,law,10,11,17,24,21,21489,0.012004491419377905
+primary_inference,token_weighted,law,10,11,18,15,21,21476,0.011997229174115123
+primary_inference,token_weighted,law,10,11,19,15,11,21025,0.011745285126921702
+primary_inference,token_weighted,law,10,11,20,26,30,20940,0.01169780121558813
+primary_inference,token_weighted,psychology,10,11,1,10,30,25600,0.024351637647631805
+primary_inference,token_weighted,psychology,10,11,2,5,11,24807,0.023597307622062583
+primary_inference,token_weighted,psychology,10,11,3,5,24,19167,0.0182323374528187
+primary_inference,token_weighted,psychology,10,11,4,21,11,17658,0.01679692256179228
+primary_inference,token_weighted,psychology,10,11,5,26,30,16309,0.015513705406063557
+primary_inference,token_weighted,psychology,10,11,6,21,24,16153,0.0153653126141483
+primary_inference,token_weighted,psychology,10,11,7,26,9,15752,0.014983867040058444
+primary_inference,token_weighted,psychology,10,11,8,10,9,15459,0.014705154937294533
+primary_inference,token_weighted,psychology,10,11,9,21,23,15304,0.014557713381224887
+primary_inference,token_weighted,psychology,10,11,10,5,23,15086,0.014350343966881772
+primary_inference,token_weighted,psychology,10,11,11,30,11,14926,0.014198146231584075
+primary_inference,token_weighted,psychology,10,11,12,30,24,14926,0.014198146231584075
+primary_inference,token_weighted,psychology,10,11,13,24,23,14114,0.013425742724948253
+primary_inference,token_weighted,psychology,10,11,14,5,21,12969,0.012336577681724095
+primary_inference,token_weighted,psychology,10,11,15,30,5,12851,0.012224331851942043
+primary_inference,token_weighted,psychology,10,11,16,5,5,12781,0.0121577453427493
+primary_inference,token_weighted,psychology,10,11,17,5,30,12771,0.012148232984293194
+primary_inference,token_weighted,psychology,10,11,18,24,11,12678,0.012059768050651407
+primary_inference,token_weighted,psychology,10,11,19,10,15,12288,0.011688786070863266
+primary_inference,token_weighted,psychology,10,11,20,24,24,11881,0.011301633081699744
+primary_inference,sample_equal,math,10,11,1,10,30,19732,0.02193062012116171
+primary_inference,sample_equal,math,10,11,2,25,12,16106,0.01825952822333274
+primary_inference,sample_equal,math,10,11,3,16,12,14966,0.01735598756576015
+primary_inference,sample_equal,math,10,11,4,10,15,14312,0.016808931744998243
+primary_inference,sample_equal,math,10,11,5,16,26,14014,0.016178401426989078
+primary_inference,sample_equal,math,10,11,6,19,12,12666,0.014431845874805114
+primary_inference,sample_equal,math,10,11,7,26,9,12817,0.013612243806993463
+primary_inference,sample_equal,math,10,11,8,10,9,11562,0.012519015262233878
+primary_inference,sample_equal,math,10,11,9,26,30,11241,0.012111054925815778
+primary_inference,sample_equal,math,10,11,10,18,30,10272,0.011498427552233507
+primary_inference,sample_equal,math,10,11,11,18,12,10053,0.011159367996861104
+primary_inference,sample_equal,math,10,11,12,13,12,8279,0.010533764086232657
+primary_inference,sample_equal,math,10,11,13,16,6,9080,0.010299581022124766
+primary_inference,sample_equal,math,10,11,14,16,3,9277,0.010073091429420665
+primary_inference,sample_equal,math,10,11,15,25,30,8999,0.00993683022627325
+primary_inference,sample_equal,math,10,11,16,10,12,8072,0.009863490743475721
+primary_inference,sample_equal,math,10,11,17,16,8,9402,0.009607320708645301
+primary_inference,sample_equal,math,10,11,18,19,26,8076,0.009315622124495921
+primary_inference,sample_equal,math,10,11,19,18,15,7725,0.009259263034052622
+primary_inference,sample_equal,math,10,11,20,16,2,7186,0.009002240635609048
+primary_inference,sample_equal,computer science,10,11,1,10,30,24108,0.023884708539719596
+primary_inference,sample_equal,computer science,10,11,2,10,15,14175,0.015429204619822483
+primary_inference,sample_equal,computer science,10,11,3,26,9,17164,0.015256191646517377
+primary_inference,sample_equal,computer science,10,11,4,25,12,18288,0.014304075469479682
+primary_inference,sample_equal,computer science,10,11,5,26,30,14971,0.013976992351947241
+primary_inference,sample_equal,computer science,10,11,6,10,9,14747,0.013348398330203464
+primary_inference,sample_equal,computer science,10,11,7,25,30,11746,0.010909652710878735
+primary_inference,sample_equal,computer science,10,11,8,18,30,10211,0.01067825040469679
+primary_inference,sample_equal,computer science,10,11,9,19,12,11971,0.009777856767744977
+primary_inference,sample_equal,computer science,10,11,10,19,7,9783,0.009135167811628502
+primary_inference,sample_equal,computer science,10,11,11,23,30,10118,0.009095478009974253
+primary_inference,sample_equal,computer science,10,11,12,14,26,9009,0.008751066095516452
+primary_inference,sample_equal,computer science,10,11,13,18,15,7763,0.008355418997068926
+primary_inference,sample_equal,computer science,10,11,14,16,12,10507,0.007980866163131423
+primary_inference,sample_equal,computer science,10,11,15,10,12,8129,0.007785277432885926
+primary_inference,sample_equal,computer science,10,11,16,25,15,7763,0.00763828485226454
+primary_inference,sample_equal,computer science,10,11,17,10,27,7880,0.007598538565443231
+primary_inference,sample_equal,computer science,10,11,18,16,26,9446,0.007563940625882134
+primary_inference,sample_equal,computer science,10,11,19,14,8,7362,0.007212263483917511
+primary_inference,sample_equal,computer science,10,11,20,26,15,6942,0.00714988284517376
+primary_inference,sample_equal,physics,10,11,1,2,23,43145,0.03636497196566963
+primary_inference,sample_equal,physics,10,11,2,14,23,32877,0.027306363086357276
+primary_inference,sample_equal,physics,10,11,3,2,26,29645,0.02485676859777529
+primary_inference,sample_equal,physics,10,11,4,14,26,25247,0.020974877558938777
+primary_inference,sample_equal,physics,10,11,5,10,30,20165,0.01899768631209669
+primary_inference,sample_equal,physics,10,11,6,25,12,18538,0.015653312294908475
+primary_inference,sample_equal,physics,10,11,7,2,6,19092,0.015597118863060606
+primary_inference,sample_equal,physics,10,11,8,16,26,18614,0.015332605401561804
+primary_inference,sample_equal,physics,10,11,9,2,7,17298,0.014852735018613688
+primary_inference,sample_equal,physics,10,11,10,16,23,18626,0.01477146232973956
+primary_inference,sample_equal,physics,10,11,11,19,12,16662,0.014444259651139806
+primary_inference,sample_equal,physics,10,11,12,10,15,14868,0.01425542653660663
+primary_inference,sample_equal,physics,10,11,13,19,23,15968,0.013651451947746095
+primary_inference,sample_equal,physics,10,11,14,26,9,14667,0.013158149279697608
+primary_inference,sample_equal,physics,10,11,15,2,12,15358,0.01267488483457737
+primary_inference,sample_equal,physics,10,11,16,19,26,14288,0.012109561947195757
+primary_inference,sample_equal,physics,10,11,17,10,9,13377,0.012094971424468444
+primary_inference,sample_equal,physics,10,11,18,14,6,14488,0.011877151481652923
+primary_inference,sample_equal,physics,10,11,19,26,30,12448,0.011505444536897407
+primary_inference,sample_equal,physics,10,11,20,16,12,13851,0.011291167193939702
+primary_inference,sample_equal,law,10,11,1,5,11,77380,0.04117488723769389
+primary_inference,sample_equal,law,10,11,2,5,20,74016,0.0376939347646762
+primary_inference,sample_equal,law,10,11,3,5,21,68511,0.03722015502732107
+primary_inference,sample_equal,law,10,11,4,8,21,53848,0.02826526086040027
+primary_inference,sample_equal,law,10,11,5,8,20,54301,0.027583675535503418
+primary_inference,sample_equal,law,10,11,6,8,11,47576,0.024393684690383374
+primary_inference,sample_equal,law,10,11,7,5,30,42159,0.022211322222598508
+primary_inference,sample_equal,law,10,11,8,10,30,35895,0.021369749809898343
+primary_inference,sample_equal,law,10,11,9,5,7,32751,0.0175907379516877
+primary_inference,sample_equal,law,10,11,10,10,11,30411,0.016709078678257654
+primary_inference,sample_equal,law,10,11,11,11,11,27411,0.014429068993508463
+primary_inference,sample_equal,law,10,11,12,15,20,28875,0.013914510713059762
+primary_inference,sample_equal,law,10,11,13,24,21,21489,0.013350255146045566
+primary_inference,sample_equal,law,10,11,14,10,21,22800,0.013216308246719708
+primary_inference,sample_equal,law,10,11,15,8,7,24832,0.012988604531340946
+primary_inference,sample_equal,law,10,11,16,26,30,20940,0.012154140967826164
+primary_inference,sample_equal,law,10,11,17,8,30,23330,0.01186436867205824
+primary_inference,sample_equal,law,10,11,18,26,9,19972,0.011633029543879283
+primary_inference,sample_equal,law,10,11,19,5,24,18469,0.011232363120073285
+primary_inference,sample_equal,law,10,11,20,30,20,20692,0.011124286152889467
+primary_inference,sample_equal,psychology,10,11,1,10,30,25600,0.025030642700634532
+primary_inference,sample_equal,psychology,10,11,2,5,11,24807,0.02348968804625958
+primary_inference,sample_equal,psychology,10,11,3,5,24,19167,0.01817326326741585
+primary_inference,sample_equal,psychology,10,11,4,21,11,17658,0.0165030261771443
+primary_inference,sample_equal,psychology,10,11,5,26,30,16309,0.015581375779989949
+primary_inference,sample_equal,psychology,10,11,6,26,9,15752,0.015029990936816754
+primary_inference,sample_equal,psychology,10,11,7,21,24,16153,0.014882660032967059
+primary_inference,sample_equal,psychology,10,11,8,10,9,15459,0.014649261418410659
+primary_inference,sample_equal,psychology,10,11,9,5,23,15086,0.014554082506800299
+primary_inference,sample_equal,psychology,10,11,10,21,23,15304,0.014372351773749837
+primary_inference,sample_equal,psychology,10,11,11,30,11,14926,0.014296709907599976
+primary_inference,sample_equal,psychology,10,11,12,30,24,14926,0.014152287848867002
+primary_inference,sample_equal,psychology,10,11,13,24,23,14114,0.013556700623455306
+primary_inference,sample_equal,psychology,10,11,14,10,15,12288,0.012769421918154784
+primary_inference,sample_equal,psychology,10,11,15,30,5,12851,0.012228201152173537
+primary_inference,sample_equal,psychology,10,11,16,24,11,12678,0.012227958676283963
+primary_inference,sample_equal,psychology,10,11,17,5,5,12781,0.012203010523181394
+primary_inference,sample_equal,psychology,10,11,18,5,30,12771,0.012111333470870173
+primary_inference,sample_equal,psychology,10,11,19,5,21,12969,0.012002640280663194
+primary_inference,sample_equal,psychology,10,11,20,24,24,11881,0.011243293073503816
+all_tokens,token_weighted,math,10,11,1,10,30,19732,0.020362420539915792
+all_tokens,token_weighted,math,10,11,2,25,12,16106,0.016620572938165608
+all_tokens,token_weighted,math,10,11,3,16,12,14966,0.015444150912243045
+all_tokens,token_weighted,math,10,11,4,10,15,14312,0.01476925617105589
+all_tokens,token_weighted,math,10,11,5,16,26,14014,0.01446173532568315
+all_tokens,token_weighted,math,10,11,6,26,9,12817,0.01322649219846446
+all_tokens,token_weighted,math,10,11,7,19,12,12666,0.013070667877486997
+all_tokens,token_weighted,math,10,11,8,10,9,11562,0.011931396020804095
+all_tokens,token_weighted,math,10,11,9,26,30,11241,0.011600140345083795
+all_tokens,token_weighted,math,10,11,10,18,30,10272,0.010600181623049616
+all_tokens,token_weighted,math,10,11,11,18,12,10053,0.010374184760175018
+all_tokens,token_weighted,math,10,11,12,16,8,9402,0.009702385866424502
+all_tokens,token_weighted,math,10,11,13,16,3,9277,0.009573392223231239
+all_tokens,token_weighted,math,10,11,14,16,6,9080,0.009370098241558655
+all_tokens,token_weighted,math,10,11,15,25,30,8999,0.00928651036076942
+all_tokens,token_weighted,math,10,11,16,14,8,8509,0.008780855279451829
+all_tokens,token_weighted,math,10,11,17,14,26,8425,0.008694171551225956
+all_tokens,token_weighted,math,10,11,18,13,12,8279,0.008543506975976225
+all_tokens,token_weighted,math,10,11,19,19,26,8076,0.008334021299430365
+all_tokens,token_weighted,math,10,11,20,10,12,8072,0.00832989350284818
+all_tokens,token_weighted,computer science,10,11,1,10,30,24108,0.021126908677911917
+all_tokens,token_weighted,computer science,10,11,2,25,12,18288,0.016026584781054138
+all_tokens,token_weighted,computer science,10,11,3,26,9,17164,0.015041573774169576
+all_tokens,token_weighted,computer science,10,11,4,26,30,14971,0.013119750697570072
+all_tokens,token_weighted,computer science,10,11,5,10,9,14747,0.0129234495716429
+all_tokens,token_weighted,computer science,10,11,6,10,15,14175,0.01242218062507887
+all_tokens,token_weighted,computer science,10,11,7,19,12,11971,0.010490717761045444
+all_tokens,token_weighted,computer science,10,11,8,25,30,11746,0.010293540290806097
+all_tokens,token_weighted,computer science,10,11,9,16,12,10507,0.009207749688021424
+all_tokens,token_weighted,computer science,10,11,10,18,30,10211,0.008948351771617662
+all_tokens,token_weighted,computer science,10,11,11,23,30,10118,0.008866851750585398
+all_tokens,token_weighted,computer science,10,11,12,19,7,9783,0.008573276406006814
+all_tokens,token_weighted,computer science,10,11,13,25,18,9483,0.008310373112354351
+all_tokens,token_weighted,computer science,10,11,14,16,26,9446,0.008277948372803882
+all_tokens,token_weighted,computer science,10,11,15,14,26,9009,0.00789498590838346
+all_tokens,token_weighted,computer science,10,11,16,19,18,8504,0.007452432030735148
+all_tokens,token_weighted,computer science,10,11,17,25,9,8359,0.007325362105469791
+all_tokens,token_weighted,computer science,10,11,18,0,18,8242,0.00722282982094533
+all_tokens,token_weighted,computer science,10,11,19,10,12,8129,0.007123802913669569
+all_tokens,token_weighted,computer science,10,11,20,10,27,7880,0.006905593179938025
+all_tokens,token_weighted,physics,10,11,1,2,23,43145,0.037236594998411976
+all_tokens,token_weighted,physics,10,11,2,14,23,32877,0.028374725547868594
+all_tokens,token_weighted,physics,10,11,3,2,26,29645,0.025585325268928566
+all_tokens,token_weighted,physics,10,11,4,14,26,25247,0.021789600508167972
+all_tokens,token_weighted,physics,10,11,5,10,30,20165,0.017403544747780216
+all_tokens,token_weighted,physics,10,11,6,2,6,19092,0.016477484568540535
+all_tokens,token_weighted,physics,10,11,7,16,23,18626,0.01607529999861911
+all_tokens,token_weighted,physics,10,11,8,16,26,18614,0.016064943314415124
+all_tokens,token_weighted,physics,10,11,9,25,12,18538,0.015999350981123216
+all_tokens,token_weighted,physics,10,11,10,2,7,17298,0.014929160280044741
+all_tokens,token_weighted,physics,10,11,11,19,12,16662,0.014380256017233523
+all_tokens,token_weighted,physics,10,11,12,19,23,15968,0.013781294447436376
+all_tokens,token_weighted,physics,10,11,13,2,12,15358,0.013254829667067125
+all_tokens,token_weighted,physics,10,11,14,10,15,14868,0.012831931728737728
+all_tokens,token_weighted,physics,10,11,15,26,9,14667,0.012658457268320975
+all_tokens,token_weighted,physics,10,11,16,14,6,14488,0.012503970062278194
+all_tokens,token_weighted,physics,10,11,17,19,26,14288,0.01233135865887844
+all_tokens,token_weighted,physics,10,11,18,16,12,13851,0.011954202742449977
+all_tokens,token_weighted,physics,10,11,19,10,9,13377,0.011545113716392559
+all_tokens,token_weighted,physics,10,11,20,14,7,13183,0.011377680655094799
+all_tokens,token_weighted,law,10,11,1,5,11,77380,0.04307312076950481
+all_tokens,token_weighted,law,10,11,2,5,20,74016,0.041200570003562524
+all_tokens,token_weighted,law,10,11,3,5,21,68511,0.03813624421090132
+all_tokens,token_weighted,law,10,11,4,8,20,54301,0.03022633149269683
+all_tokens,token_weighted,law,10,11,5,8,21,53848,0.02997417171357321
+all_tokens,token_weighted,law,10,11,6,8,11,47576,0.026482899893124332
+all_tokens,token_weighted,law,10,11,7,5,30,42159,0.023467558781617385
+all_tokens,token_weighted,law,10,11,8,10,30,35895,0.019980740114000712
+all_tokens,token_weighted,law,10,11,9,5,7,32751,0.01823065105094407
+all_tokens,token_weighted,law,10,11,10,10,11,30411,0.016928103847524047
+all_tokens,token_weighted,law,10,11,11,15,20,28875,0.016073098503740647
+all_tokens,token_weighted,law,10,11,12,11,11,27411,0.015258171535447097
+all_tokens,token_weighted,law,10,11,13,8,7,24832,0.013822586391164945
+all_tokens,token_weighted,law,10,11,14,8,30,23330,0.012986506946918419
+all_tokens,token_weighted,law,10,11,15,10,21,22800,0.012691485571784823
+all_tokens,token_weighted,law,10,11,16,10,20,21685,0.012070827395796223
+all_tokens,token_weighted,law,10,11,17,24,21,21489,0.011961725151407197
+all_tokens,token_weighted,law,10,11,18,15,21,21476,0.011954488778054863
+all_tokens,token_weighted,law,10,11,19,15,11,21025,0.011703442287139295
+all_tokens,token_weighted,law,10,11,20,26,30,20940,0.011656127538297114
+all_tokens,token_weighted,psychology,10,11,1,10,30,25600,0.024204284158296018
+all_tokens,token_weighted,psychology,10,11,2,5,11,24807,0.0234545186372988
+all_tokens,token_weighted,psychology,10,11,3,5,24,19167,0.01812201228367421
+all_tokens,token_weighted,psychology,10,11,4,21,11,17658,0.01669528319012465
+all_tokens,token_weighted,psychology,10,11,5,26,30,16309,0.015419830872564443
+all_tokens,token_weighted,psychology,10,11,6,21,24,16153,0.015272336015974828
+all_tokens,token_weighted,psychology,10,11,7,26,9,15752,0.014893198596151519
+all_tokens,token_weighted,psychology,10,11,8,10,9,15459,0.014616173000121021
+all_tokens,token_weighted,psychology,10,11,9,21,23,15304,0.014469623623381339
+all_tokens,token_weighted,psychology,10,11,10,5,23,15086,0.01426350901609585
+all_tokens,token_weighted,psychology,10,11,11,30,11,14926,0.0141122322401065
+all_tokens,token_weighted,psychology,10,11,12,30,24,14926,0.0141122322401065
+all_tokens,token_weighted,psychology,10,11,13,24,23,14114,0.013344502601960547
+all_tokens,token_weighted,psychology,10,11,14,5,21,12969,0.012261928173786761
+all_tokens,token_weighted,psychology,10,11,15,30,5,12851,0.012150361551494614
+all_tokens,token_weighted,psychology,10,11,16,5,5,12781,0.012084177961999273
+all_tokens,token_weighted,psychology,10,11,17,5,30,12771,0.01207472316349994
+all_tokens,token_weighted,psychology,10,11,18,24,11,12678,0.011986793537456129
+all_tokens,token_weighted,psychology,10,11,19,10,15,12288,0.011618056395982089
+all_tokens,token_weighted,psychology,10,11,20,24,24,11881,0.011233246097059179
+all_tokens,sample_equal,math,10,11,1,10,30,19732,0.02174280915445043
+all_tokens,sample_equal,math,10,11,2,25,12,16106,0.018102434153752893
+all_tokens,sample_equal,math,10,11,3,16,12,14966,0.017204870505641567
+all_tokens,sample_equal,math,10,11,4,10,15,14312,0.016658951930493583
+all_tokens,sample_equal,math,10,11,5,16,26,14014,0.01603775297857368
+all_tokens,sample_equal,math,10,11,6,19,12,12666,0.014307827289520984
+all_tokens,sample_equal,math,10,11,7,26,9,12817,0.01350060994077058
+all_tokens,sample_equal,math,10,11,8,10,9,11562,0.012414229120992468
+all_tokens,sample_equal,math,10,11,9,26,30,11241,0.012009934161857763
+all_tokens,sample_equal,math,10,11,10,18,30,10272,0.011399379977784094
+all_tokens,sample_equal,math,10,11,11,18,12,10053,0.011064758079881352
+all_tokens,sample_equal,math,10,11,12,13,12,8279,0.010434924857933549
+all_tokens,sample_equal,math,10,11,13,16,6,9080,0.010213217636615484
+all_tokens,sample_equal,math,10,11,14,16,3,9277,0.009992308623156067
+all_tokens,sample_equal,math,10,11,15,25,30,8999,0.009852489979060899
+all_tokens,sample_equal,math,10,11,16,10,12,8072,0.009773443130180318
+all_tokens,sample_equal,math,10,11,17,16,8,9402,0.009536763746692673
+all_tokens,sample_equal,math,10,11,18,19,26,8076,0.009234623644236866
+all_tokens,sample_equal,math,10,11,19,18,15,7725,0.009174953920226946
+all_tokens,sample_equal,math,10,11,20,16,2,7186,0.008918141269617466
+all_tokens,sample_equal,computer science,10,11,1,10,30,24108,0.0236771751543258
+all_tokens,sample_equal,computer science,10,11,2,10,15,14175,0.015287521223748634
+all_tokens,sample_equal,computer science,10,11,3,26,9,17164,0.015134178662315674
+all_tokens,sample_equal,computer science,10,11,4,25,12,18288,0.01419973171496133
+all_tokens,sample_equal,computer science,10,11,5,26,30,14971,0.013861358706019069
+all_tokens,sample_equal,computer science,10,11,6,10,9,14747,0.01323838847587484
+all_tokens,sample_equal,computer science,10,11,7,25,30,11746,0.01082122408142537
+all_tokens,sample_equal,computer science,10,11,8,18,30,10211,0.010585236006671304
+all_tokens,sample_equal,computer science,10,11,9,19,12,11971,0.009704990562680428
+all_tokens,sample_equal,computer science,10,11,10,19,7,9783,0.00905886220921095
+all_tokens,sample_equal,computer science,10,11,11,23,30,10118,0.009021892557309065
+all_tokens,sample_equal,computer science,10,11,12,14,26,9009,0.008684552932086058
+all_tokens,sample_equal,computer science,10,11,13,18,15,7763,0.008281046067591204
+all_tokens,sample_equal,computer science,10,11,14,16,12,10507,0.007924379668287353
+all_tokens,sample_equal,computer science,10,11,15,10,12,8129,0.007720562315364272
+all_tokens,sample_equal,computer science,10,11,16,25,15,7763,0.007573819590375487
+all_tokens,sample_equal,computer science,10,11,17,10,27,7880,0.007534430868192364
+all_tokens,sample_equal,computer science,10,11,18,16,26,9446,0.007509068747844332
+all_tokens,sample_equal,computer science,10,11,19,14,8,7362,0.007157418502510065
+all_tokens,sample_equal,computer science,10,11,20,26,15,6942,0.007086807057691347
+all_tokens,sample_equal,physics,10,11,1,2,23,43145,0.03612827951260133
+all_tokens,sample_equal,physics,10,11,2,14,23,32877,0.027132704489434913
+all_tokens,sample_equal,physics,10,11,3,2,26,29645,0.02469983136057323
+all_tokens,sample_equal,physics,10,11,4,14,26,25247,0.020843198907257984
+all_tokens,sample_equal,physics,10,11,5,10,30,20165,0.018853713766464355
+all_tokens,sample_equal,physics,10,11,6,25,12,18538,0.015549566478565828
+all_tokens,sample_equal,physics,10,11,7,2,6,19092,0.01550153181938479
+all_tokens,sample_equal,physics,10,11,8,16,26,18614,0.015238639984842957
+all_tokens,sample_equal,physics,10,11,9,2,7,17298,0.014751937851318848
+all_tokens,sample_equal,physics,10,11,10,16,23,18626,0.01468439248342631
+all_tokens,sample_equal,physics,10,11,11,19,12,16662,0.01434806327903305
+all_tokens,sample_equal,physics,10,11,12,10,15,14868,0.014146834914873467
+all_tokens,sample_equal,physics,10,11,13,19,23,15968,0.013560481518366443
+all_tokens,sample_equal,physics,10,11,14,26,9,14667,0.013064120368624149
+all_tokens,sample_equal,physics,10,11,15,2,12,15358,0.012595007068361435
+all_tokens,sample_equal,physics,10,11,16,19,26,14288,0.012032478989877131
+all_tokens,sample_equal,physics,10,11,17,10,9,13377,0.012007298909611724
+all_tokens,sample_equal,physics,10,11,18,14,6,14488,0.011803881763270185
+all_tokens,sample_equal,physics,10,11,19,26,30,12448,0.011420075574063271
+all_tokens,sample_equal,physics,10,11,20,16,12,13851,0.011222437713422448
+all_tokens,sample_equal,law,10,11,1,5,11,77380,0.04100017065852086
+all_tokens,sample_equal,law,10,11,2,5,20,74016,0.03754726679765079
+all_tokens,sample_equal,law,10,11,3,5,21,68511,0.03705508939730361
+all_tokens,sample_equal,law,10,11,4,8,21,53848,0.028148127168130043
+all_tokens,sample_equal,law,10,11,5,8,20,54301,0.027477130470365815
+all_tokens,sample_equal,law,10,11,6,8,11,47576,0.024298053190026696
+all_tokens,sample_equal,law,10,11,7,5,30,42159,0.022120596750512443
+all_tokens,sample_equal,law,10,11,8,10,30,35895,0.021259222040325872
+all_tokens,sample_equal,law,10,11,9,5,7,32751,0.017514258501213693
+all_tokens,sample_equal,law,10,11,10,10,11,30411,0.016634847046005506
+all_tokens,sample_equal,law,10,11,11,11,11,27411,0.014369342717551357
+all_tokens,sample_equal,law,10,11,12,15,20,28875,0.013864077671769082
+all_tokens,sample_equal,law,10,11,13,24,21,21489,0.013274331966999224
+all_tokens,sample_equal,law,10,11,14,10,21,22800,0.013149734125637587
+all_tokens,sample_equal,law,10,11,15,8,7,24832,0.012934962145906646
+all_tokens,sample_equal,law,10,11,16,26,30,20940,0.012093701982625625
+all_tokens,sample_equal,law,10,11,17,8,30,23330,0.011818697913816852
+all_tokens,sample_equal,law,10,11,18,26,9,19972,0.011574608413930319
+all_tokens,sample_equal,law,10,11,19,5,24,18469,0.011173139038568121
+all_tokens,sample_equal,law,10,11,20,30,20,20692,0.011077357321267174
+all_tokens,sample_equal,psychology,10,11,1,10,30,25600,0.02483548930806655
+all_tokens,sample_equal,psychology,10,11,2,5,11,24807,0.023321060735319653
+all_tokens,sample_equal,psychology,10,11,3,5,24,19167,0.018040186974450333
+all_tokens,sample_equal,psychology,10,11,4,21,11,17658,0.016384027930982866
+all_tokens,sample_equal,psychology,10,11,5,26,30,16309,0.015462614116949248
+all_tokens,sample_equal,psychology,10,11,6,26,9,15752,0.014915028599809713
+all_tokens,sample_equal,psychology,10,11,7,21,24,16153,0.014776348072484347
+all_tokens,sample_equal,psychology,10,11,8,10,9,15459,0.014538020244643924
+all_tokens,sample_equal,psychology,10,11,9,5,23,15086,0.0144451430644737
+all_tokens,sample_equal,psychology,10,11,10,21,23,15304,0.01426486955326468
+all_tokens,sample_equal,psychology,10,11,11,30,11,14926,0.014191650788144826
+all_tokens,sample_equal,psychology,10,11,12,30,24,14926,0.014046851094995302
+all_tokens,sample_equal,psychology,10,11,13,24,23,14114,0.013453265647229335
+all_tokens,sample_equal,psychology,10,11,14,10,15,12288,0.012663301680949694
+all_tokens,sample_equal,psychology,10,11,15,24,11,12678,0.012138395231836756
+all_tokens,sample_equal,psychology,10,11,16,30,5,12851,0.012134537510058288
+all_tokens,sample_equal,psychology,10,11,17,5,5,12781,0.012110503513178187
+all_tokens,sample_equal,psychology,10,11,18,5,30,12771,0.012024662561465527
+all_tokens,sample_equal,psychology,10,11,19,5,21,12969,0.01191820534971238
+all_tokens,sample_equal,psychology,10,11,20,24,24,11881,0.011160989722473908
+primary_inference,token_weighted,math,11,12,1,12,6,21043,0.02185967755339483
+primary_inference,token_weighted,math,11,12,2,30,23,14575,0.015140654865785756
+primary_inference,token_weighted,math,11,12,3,12,19,13037,0.013542965179090833
+primary_inference,token_weighted,math,11,12,4,9,1,12946,0.013448433474611485
+primary_inference,token_weighted,math,11,12,5,8,11,12374,0.012854234189312723
+primary_inference,token_weighted,math,11,12,6,26,19,12337,0.012815798221557383
+primary_inference,token_weighted,math,11,12,7,30,1,11600,0.012050195296268594
+primary_inference,token_weighted,math,11,12,8,15,23,10907,0.011330300008310479
+primary_inference,token_weighted,math,11,12,9,26,11,10696,0.011111111111111112
+primary_inference,token_weighted,math,11,12,10,30,6,10665,0.011078908002991772
+primary_inference,token_weighted,math,11,12,11,3,19,10131,0.010524183495387683
+primary_inference,token_weighted,math,11,12,12,8,19,10096,0.010487825147511011
+primary_inference,token_weighted,math,11,12,13,26,7,10009,0.010397448682788997
+primary_inference,token_weighted,math,11,12,14,26,6,9873,0.010256170531039641
+primary_inference,token_weighted,math,11,12,15,6,11,9666,0.010041136873597607
+primary_inference,token_weighted,math,11,12,16,9,23,9558,0.009928945400149589
+primary_inference,token_weighted,math,11,12,17,6,19,9249,0.009607953128895537
+primary_inference,token_weighted,math,11,12,18,15,6,9196,0.009552896202110861
+primary_inference,token_weighted,math,11,12,19,8,7,9187,0.00954354691265686
+primary_inference,token_weighted,math,11,12,20,12,11,8640,0.008975317875841436
+primary_inference,token_weighted,computer science,11,12,1,12,6,20170,0.017775560851111833
+primary_inference,token_weighted,computer science,11,12,2,9,1,17209,0.015166069741536118
+primary_inference,token_weighted,computer science,11,12,3,30,23,16460,0.014505985701998054
+primary_inference,token_weighted,computer science,11,12,4,30,1,15332,0.013511893850731116
+primary_inference,token_weighted,computer science,11,12,5,30,6,12424,0.010949110957571314
+primary_inference,token_weighted,computer science,11,12,6,9,23,11227,0.009894210296253472
+primary_inference,token_weighted,computer science,11,12,7,15,23,10533,0.009282597047335693
+primary_inference,token_weighted,computer science,11,12,8,18,6,10215,0.009002347748840227
+primary_inference,token_weighted,computer science,11,12,9,12,8,9976,0.008791720131417533
+primary_inference,token_weighted,computer science,11,12,10,9,6,9561,0.008425985984009926
+primary_inference,token_weighted,computer science,11,12,11,30,21,9460,0.00833697598668904
+primary_inference,token_weighted,computer science,11,12,12,12,30,9215,0.008121060646653223
+primary_inference,token_weighted,computer science,11,12,13,15,6,8691,0.007659266205107235
+primary_inference,token_weighted,computer science,11,12,14,12,19,7919,0.006978912562218869
+primary_inference,token_weighted,computer science,11,12,15,27,23,7840,0.006909290881146096
+primary_inference,token_weighted,computer science,11,12,16,26,19,7816,0.0068881399906936085
+primary_inference,token_weighted,computer science,11,12,17,30,24,7592,0.0066907316798037195
+primary_inference,token_weighted,computer science,11,12,18,15,1,7048,0.006211311496213991
+primary_inference,token_weighted,computer science,11,12,19,12,1,6907,0.006087050014805623
+primary_inference,token_weighted,computer science,11,12,20,26,6,6847,0.0060341727886744035
+primary_inference,token_weighted,physics,11,12,1,23,13,36824,0.03195773220211894
+primary_inference,token_weighted,physics,11,12,2,23,11,25553,0.0221761875668245
+primary_inference,token_weighted,physics,11,12,3,12,6,24810,0.021531374536567754
+primary_inference,token_weighted,physics,11,12,4,26,13,24254,0.021048849577183164
+primary_inference,token_weighted,physics,11,12,5,23,19,21893,0.018999854201091407
+primary_inference,token_weighted,physics,11,12,6,26,11,21059,0.018276066762014525
+primary_inference,token_weighted,physics,11,12,7,26,19,20250,0.01757397558909702
+primary_inference,token_weighted,physics,11,12,8,7,13,15537,0.013483795492730884
+primary_inference,token_weighted,physics,11,12,9,6,11,15524,0.013472513434328006
+primary_inference,token_weighted,physics,11,12,10,26,6,15376,0.013344071538664482
+primary_inference,token_weighted,physics,11,12,11,6,13,15283,0.013263361428551591
+primary_inference,token_weighted,physics,11,12,12,30,23,15183,0.013176576363914077
+primary_inference,token_weighted,physics,11,12,13,9,1,15052,0.01306288792923893
+primary_inference,token_weighted,physics,11,12,14,12,19,14040,0.012184623075107266
+primary_inference,token_weighted,physics,11,12,15,23,6,13719,0.01190604301762084
+primary_inference,token_weighted,physics,11,12,16,6,19,13168,0.011427857311468125
+primary_inference,token_weighted,physics,11,12,17,30,1,13004,0.011285529805462598
+primary_inference,token_weighted,physics,11,12,18,23,7,12924,0.011216101753752586
+primary_inference,token_weighted,physics,11,12,19,30,6,12262,0.010641584625852228
+primary_inference,token_weighted,physics,11,12,20,9,23,11046,0.009586278239860033
+primary_inference,token_weighted,law,11,12,1,11,3,76069,0.04249474883804076
+primary_inference,token_weighted,law,11,12,2,20,3,69398,0.03876809974973185
+primary_inference,token_weighted,law,11,12,3,21,3,67504,0.03771004647836968
+primary_inference,token_weighted,law,11,12,4,11,24,60365,0.03372195656060065
+primary_inference,token_weighted,law,11,12,5,20,24,46170,0.025792143367894173
+primary_inference,token_weighted,law,11,12,6,30,3,43709,0.024417344476224526
+primary_inference,token_weighted,law,11,12,7,21,24,39436,0.02203030032177333
+primary_inference,token_weighted,law,11,12,8,21,25,36708,0.02050634608509117
+primary_inference,token_weighted,law,11,12,9,20,25,35574,0.019872854844476224
+primary_inference,token_weighted,law,11,12,10,7,3,30936,0.01728190918841616
+primary_inference,token_weighted,law,11,12,11,11,25,29773,0.016632217554522703
+primary_inference,token_weighted,law,11,12,12,30,24,28712,0.01603950661422953
+primary_inference,token_weighted,law,11,12,13,7,25,27560,0.01539595995709689
+primary_inference,token_weighted,law,11,12,14,20,15,25689,0.01435075527350733
+primary_inference,token_weighted,law,11,12,15,11,15,24872,0.013894351090454058
+primary_inference,token_weighted,law,11,12,16,20,21,24034,0.01342621558813014
+primary_inference,token_weighted,law,11,12,17,21,15,24019,0.013417836074365391
+primary_inference,token_weighted,law,11,12,18,30,21,23865,0.013331806399713979
+primary_inference,token_weighted,law,11,12,19,21,21,22314,0.012465364676439042
+primary_inference,token_weighted,law,11,12,20,11,21,21769,0.0121609090096532
+primary_inference,token_weighted,psychology,11,12,1,11,3,30063,0.028597003226591988
+primary_inference,token_weighted,psychology,11,12,2,24,3,26524,0.025230579568976015
+primary_inference,token_weighted,psychology,11,12,3,30,3,21249,0.020212810483380007
+primary_inference,token_weighted,psychology,11,12,4,23,3,21097,0.020068222634847192
+primary_inference,token_weighted,psychology,11,12,5,11,24,21021,0.01999592871058079
+primary_inference,token_weighted,psychology,11,12,6,30,1,17053,0.016221424875197857
+primary_inference,token_weighted,psychology,11,12,7,30,21,16203,0.015412874406428832
+primary_inference,token_weighted,psychology,11,12,8,9,1,16040,0.015257822963594302
+primary_inference,token_weighted,psychology,11,12,9,24,25,15719,0.014952476257153293
+primary_inference,token_weighted,psychology,11,12,10,21,3,15618,0.014856401436746621
+primary_inference,token_weighted,psychology,11,12,11,5,3,15155,0.014415979240228905
+primary_inference,token_weighted,psychology,11,12,12,7,25,15013,0.014280903750152198
+primary_inference,token_weighted,psychology,11,12,13,7,3,14400,0.01369779617679289
+primary_inference,token_weighted,psychology,11,12,14,11,25,13948,0.01326783757457689
+primary_inference,token_weighted,psychology,11,12,15,30,23,13827,0.013152738037258006
+primary_inference,token_weighted,psychology,11,12,16,23,25,13654,0.012988174235967369
+primary_inference,token_weighted,psychology,11,12,17,23,24,11843,0.01126548611956654
+primary_inference,token_weighted,psychology,11,12,18,30,24,11695,0.01112470321441617
+primary_inference,token_weighted,psychology,11,12,19,11,21,11605,0.011039091988311213
+primary_inference,token_weighted,psychology,11,12,20,11,18,11030,0.01049213137708511
+primary_inference,sample_equal,math,11,12,1,12,6,21043,0.024181768639318202
+primary_inference,sample_equal,math,11,12,2,30,23,14575,0.016999133645493773
+primary_inference,sample_equal,math,11,12,3,12,19,13037,0.014974803595218338
+primary_inference,sample_equal,math,11,12,4,26,19,12337,0.013946646512902974
+primary_inference,sample_equal,math,11,12,5,9,1,12946,0.013763718151868077
+primary_inference,sample_equal,math,11,12,6,15,23,10907,0.013192011363046263
+primary_inference,sample_equal,math,11,12,7,30,1,11600,0.012540033055598554
+primary_inference,sample_equal,math,11,12,8,30,6,10665,0.012375705552418115
+primary_inference,sample_equal,math,11,12,9,8,11,12374,0.012214739103379637
+primary_inference,sample_equal,math,11,12,10,26,11,10696,0.011807718792024226
+primary_inference,sample_equal,math,11,12,11,26,6,9873,0.011567093320509661
+primary_inference,sample_equal,math,11,12,12,15,6,9196,0.011012417843345158
+primary_inference,sample_equal,math,11,12,13,3,19,10131,0.010908511370205454
+primary_inference,sample_equal,math,11,12,14,9,23,9558,0.010692303587629532
+primary_inference,sample_equal,math,11,12,15,6,11,9666,0.01060821726315235
+primary_inference,sample_equal,math,11,12,16,26,7,10009,0.010589830343518734
+primary_inference,sample_equal,math,11,12,17,6,19,9249,0.01032408344165213
+primary_inference,sample_equal,math,11,12,18,8,19,10096,0.0101345652939118
+primary_inference,sample_equal,math,11,12,19,12,11,8640,0.010109072350395923
+primary_inference,sample_equal,math,11,12,20,2,11,7872,0.009632290491956791
+primary_inference,sample_equal,computer science,11,12,1,30,23,16460,0.01697123208216853
+primary_inference,sample_equal,computer science,11,12,2,12,6,20170,0.016668105590508513
+primary_inference,sample_equal,computer science,11,12,3,9,1,17209,0.015311231196059793
+primary_inference,sample_equal,computer science,11,12,4,30,1,15332,0.014426921278890106
+primary_inference,sample_equal,computer science,11,12,5,30,6,12424,0.012155177780910591
+primary_inference,sample_equal,computer science,11,12,6,15,23,10533,0.011751343640805465
+primary_inference,sample_equal,computer science,11,12,7,9,23,11227,0.010537127565435931
+primary_inference,sample_equal,computer science,11,12,8,30,21,9460,0.009709234476045136
+primary_inference,sample_equal,computer science,11,12,9,15,6,8691,0.00924035146360022
+primary_inference,sample_equal,computer science,11,12,10,9,6,9561,0.008193457069083443
+primary_inference,sample_equal,computer science,11,12,11,18,6,10215,0.007965589903606409
+primary_inference,sample_equal,computer science,11,12,12,27,23,7840,0.007541295635929234
+primary_inference,sample_equal,computer science,11,12,13,30,24,7592,0.0075182419356236195
+primary_inference,sample_equal,computer science,11,12,14,12,30,9215,0.007510229929557419
+primary_inference,sample_equal,computer science,11,12,15,12,8,9976,0.007404984598464793
+primary_inference,sample_equal,computer science,11,12,16,15,1,7048,0.007385791029550135
+primary_inference,sample_equal,computer science,11,12,17,30,14,6684,0.006641370638118507
+primary_inference,sample_equal,computer science,11,12,18,12,19,7919,0.006505012908135948
+primary_inference,sample_equal,computer science,11,12,19,26,19,7816,0.006495542052257025
+primary_inference,sample_equal,computer science,11,12,20,11,24,5887,0.006227147592201479
+primary_inference,sample_equal,physics,11,12,1,23,13,36824,0.03133291773338024
+primary_inference,sample_equal,physics,11,12,2,12,6,24810,0.02130226315471628
+primary_inference,sample_equal,physics,11,12,3,23,11,25553,0.020896387120251308
+primary_inference,sample_equal,physics,11,12,4,26,13,24254,0.020471152281636682
+primary_inference,sample_equal,physics,11,12,5,26,11,21059,0.01766529603859348
+primary_inference,sample_equal,physics,11,12,6,23,19,21893,0.01747456117894551
+primary_inference,sample_equal,physics,11,12,7,26,19,20250,0.01666665696108361
+primary_inference,sample_equal,physics,11,12,8,30,23,15183,0.014571397766241135
+primary_inference,sample_equal,physics,11,12,9,9,1,15052,0.013453070261925737
+primary_inference,sample_equal,physics,11,12,10,7,13,15537,0.013439143999480797
+primary_inference,sample_equal,physics,11,12,11,26,6,15376,0.0127871675356168
+primary_inference,sample_equal,physics,11,12,12,6,11,15524,0.012712015153341416
+primary_inference,sample_equal,physics,11,12,13,6,13,15283,0.012520463230526946
+primary_inference,sample_equal,physics,11,12,14,30,1,13004,0.012021150858598777
+primary_inference,sample_equal,physics,11,12,15,12,19,14040,0.01157554427610219
+primary_inference,sample_equal,physics,11,12,16,30,6,12262,0.011482008775980974
+primary_inference,sample_equal,physics,11,12,17,23,6,13719,0.011397583843868655
+primary_inference,sample_equal,physics,11,12,18,6,19,13168,0.010684923980847314
+primary_inference,sample_equal,physics,11,12,19,15,23,10803,0.01066767244956573
+primary_inference,sample_equal,physics,11,12,20,23,7,12924,0.010587511709626718
+primary_inference,sample_equal,law,11,12,1,11,3,76069,0.04100672996827748
+primary_inference,sample_equal,law,11,12,2,21,3,67504,0.03740424341647145
+primary_inference,sample_equal,law,11,12,3,20,3,69398,0.035395324389292354
+primary_inference,sample_equal,law,11,12,4,11,24,60365,0.03165074088216982
+primary_inference,sample_equal,law,11,12,5,30,3,43709,0.023918786915658484
+primary_inference,sample_equal,law,11,12,6,20,24,46170,0.022881642271044028
+primary_inference,sample_equal,law,11,12,7,21,24,39436,0.020762880545431708
+primary_inference,sample_equal,law,11,12,8,21,25,36708,0.02047536189844379
+primary_inference,sample_equal,law,11,12,9,20,25,35574,0.018417839303745832
+primary_inference,sample_equal,law,11,12,10,7,3,30936,0.017002622751636307
+primary_inference,sample_equal,law,11,12,11,11,25,29773,0.016186271378912268
+primary_inference,sample_equal,law,11,12,12,30,24,28712,0.015403057167599552
+primary_inference,sample_equal,law,11,12,13,7,25,27560,0.015267537089728089
+primary_inference,sample_equal,law,11,12,14,21,15,24019,0.014283908550414883
+primary_inference,sample_equal,law,11,12,15,11,15,24872,0.014199682313972022
+primary_inference,sample_equal,law,11,12,16,30,21,23865,0.013737499573356335
+primary_inference,sample_equal,law,11,12,17,20,15,25689,0.013577302071474125
+primary_inference,sample_equal,law,11,12,18,21,21,22314,0.012499275495883325
+primary_inference,sample_equal,law,11,12,19,21,26,20892,0.012446062418070319
+primary_inference,sample_equal,law,11,12,20,30,1,21202,0.012421962280460254
+primary_inference,sample_equal,psychology,11,12,1,11,3,30063,0.02832848372497319
+primary_inference,sample_equal,psychology,11,12,2,24,3,26524,0.024925510434793723
+primary_inference,sample_equal,psychology,11,12,3,23,3,21097,0.020149285282346857
+primary_inference,sample_equal,psychology,11,12,4,30,3,21249,0.02013285904884766
+primary_inference,sample_equal,psychology,11,12,5,11,24,21021,0.01948460050224662
+primary_inference,sample_equal,psychology,11,12,6,30,1,17053,0.01645982357234685
+primary_inference,sample_equal,psychology,11,12,7,30,21,16203,0.01581539872713233
+primary_inference,sample_equal,psychology,11,12,8,9,1,16040,0.01537895443477236
+primary_inference,sample_equal,psychology,11,12,9,24,25,15719,0.014905275798939884
+primary_inference,sample_equal,psychology,11,12,10,7,25,15013,0.014537234299822177
+primary_inference,sample_equal,psychology,11,12,11,30,23,13827,0.0145010589764128
+primary_inference,sample_equal,psychology,11,12,12,5,3,15155,0.014357630843424542
+primary_inference,sample_equal,psychology,11,12,13,21,3,15618,0.01432544459024427
+primary_inference,sample_equal,psychology,11,12,14,7,3,14400,0.013706054836811705
+primary_inference,sample_equal,psychology,11,12,15,11,25,13948,0.013457595678406572
+primary_inference,sample_equal,psychology,11,12,16,23,25,13654,0.013263521003522486
+primary_inference,sample_equal,psychology,11,12,17,23,24,11843,0.011337120183589759
+primary_inference,sample_equal,psychology,11,12,18,11,21,11605,0.01090860585739865
+primary_inference,sample_equal,psychology,11,12,19,30,24,11695,0.010864180083298274
+primary_inference,sample_equal,psychology,11,12,20,11,18,11030,0.010637394608823257
+all_tokens,token_weighted,math,11,12,1,12,6,21043,0.02171530586972674
+all_tokens,token_weighted,math,11,12,2,30,23,14575,0.015040658796334516
+all_tokens,token_weighted,math,11,12,3,12,19,13037,0.013453521010484604
+all_tokens,token_weighted,math,11,12,4,9,1,12946,0.013359613638239908
+all_tokens,token_weighted,math,11,12,5,8,11,12374,0.012769338726987534
+all_tokens,token_weighted,math,11,12,6,26,19,12337,0.012731156608602329
+all_tokens,token_weighted,math,11,12,7,30,1,11600,0.011970610088334848
+all_tokens,token_weighted,math,11,12,8,15,23,11307,0.011668248988689837
+all_tokens,token_weighted,math,11,12,9,26,11,10696,0.011037728060761165
+all_tokens,token_weighted,math,11,12,10,30,6,10665,0.011005737637249236
+all_tokens,token_weighted,math,11,12,11,3,19,10131,0.010454676793527615
+all_tokens,token_weighted,math,11,12,12,8,19,10096,0.010418558573433502
+all_tokens,token_weighted,math,11,12,13,26,7,10009,0.01032877899777099
+all_tokens,token_weighted,math,11,12,14,26,6,9873,0.01018843391397672
+all_tokens,token_weighted,math,11,12,15,6,11,9666,0.009974820440848676
+all_tokens,token_weighted,math,11,12,16,9,23,9558,0.009863369933129695
+all_tokens,token_weighted,math,11,12,17,6,19,9249,0.009544497647155948
+all_tokens,token_weighted,math,11,12,18,15,6,9196,0.009489804342442005
+all_tokens,token_weighted,math,11,12,19,8,7,9187,0.009480516800132089
+all_tokens,token_weighted,math,11,12,20,12,11,8640,0.008916040617518368
+all_tokens,token_weighted,computer science,11,12,1,12,6,20170,0.017675864776567254
+all_tokens,token_weighted,computer science,11,12,2,9,1,17209,0.015081009268217446
+all_tokens,token_weighted,computer science,11,12,3,30,23,16460,0.014424627378398462
+all_tokens,token_weighted,computer science,11,12,4,30,1,15332,0.013436110994265203
+all_tokens,token_weighted,computer science,11,12,5,30,6,12424,0.010887701734460662
+all_tokens,token_weighted,computer science,11,12,6,9,23,11227,0.009838717592787335
+all_tokens,token_weighted,computer science,11,12,7,15,23,10933,0.009581072365007923
+all_tokens,token_weighted,computer science,11,12,8,18,6,10215,0.00895185714886636
+all_tokens,token_weighted,computer science,11,12,9,12,8,9976,0.008742410858256566
+all_tokens,token_weighted,computer science,11,12,10,9,6,9561,0.008378727968703993
+all_tokens,token_weighted,computer science,11,12,11,30,21,9460,0.00829021719317433
+all_tokens,token_weighted,computer science,11,12,12,12,30,9215,0.008075512836691485
+all_tokens,token_weighted,computer science,11,12,13,15,6,8691,0.00761630841711185
+all_tokens,token_weighted,computer science,11,12,14,12,19,7919,0.006939770608112845
+all_tokens,token_weighted,computer science,11,12,15,27,23,7840,0.00687053940745103
+all_tokens,token_weighted,computer science,11,12,16,26,19,7816,0.006849507143958833
+all_tokens,token_weighted,computer science,11,12,17,30,24,7592,0.00665320601803166
+all_tokens,token_weighted,computer science,11,12,18,15,1,7048,0.006176474712208528
+all_tokens,token_weighted,computer science,11,12,19,12,1,6907,0.00605291016419187
+all_tokens,token_weighted,computer science,11,12,20,26,6,6847,0.006000329505461378
+all_tokens,token_weighted,physics,11,12,1,23,13,36824,0.031781211593962744
+all_tokens,token_weighted,physics,11,12,2,23,11,25553,0.022053695955369594
+all_tokens,token_weighted,physics,11,12,3,12,6,24810,0.021412444591739507
+all_tokens,token_weighted,physics,11,12,4,26,13,24254,0.02093258489028819
+all_tokens,token_weighted,physics,11,12,5,23,19,21893,0.018894907273154092
+all_tokens,token_weighted,physics,11,12,6,26,11,21059,0.01817511772097712
+all_tokens,token_weighted,physics,11,12,7,26,19,20250,0.01747690459422511
+all_tokens,token_weighted,physics,11,12,8,7,13,15537,0.013409316873109905
+all_tokens,token_weighted,physics,11,12,9,6,11,15524,0.013398097131888921
+all_tokens,token_weighted,physics,11,12,10,26,6,15376,0.013270364693373103
+all_tokens,token_weighted,physics,11,12,11,6,13,15283,0.013190100390792218
+all_tokens,token_weighted,physics,11,12,12,30,23,15183,0.01310379468909234
+all_tokens,token_weighted,physics,11,12,13,9,1,15052,0.012990734219865501
+all_tokens,token_weighted,physics,11,12,14,12,19,14040,0.012117320518662746
+all_tokens,token_weighted,physics,11,12,15,23,6,13719,0.01184027921620614
+all_tokens,token_weighted,physics,11,12,16,6,19,13168,0.011364734799839817
+all_tokens,token_weighted,physics,11,12,17,30,1,13004,0.011223193449052019
+all_tokens,token_weighted,physics,11,12,18,23,7,12924,0.011154148887692117
+all_tokens,token_weighted,physics,11,12,19,30,6,12262,0.01058280514243893
+all_tokens,token_weighted,physics,11,12,20,15,23,11203,0.009668827761437232
+all_tokens,token_weighted,law,11,12,1,11,3,76069,0.04234336034912718
+all_tokens,token_weighted,law,11,12,2,20,3,69398,0.03862998753117207
+all_tokens,token_weighted,law,11,12,3,21,3,67504,0.03757570359814749
+all_tokens,token_weighted,law,11,12,4,11,24,60365,0.03360182133950837
+all_tokens,token_weighted,law,11,12,5,20,24,46170,0.025700258282864267
+all_tokens,token_weighted,law,11,12,6,30,3,43709,0.024330357142857143
+all_tokens,token_weighted,law,11,12,7,21,24,39436,0.02195181688635554
+all_tokens,token_weighted,law,11,12,8,21,25,36708,0.020433291770573566
+all_tokens,token_weighted,law,11,12,9,20,25,35574,0.01980205735660848
+all_tokens,token_weighted,law,11,12,10,7,3,30936,0.017220342002137512
+all_tokens,token_weighted,law,11,12,11,11,25,29773,0.016572964909155684
+all_tokens,token_weighted,law,11,12,12,30,24,28712,0.015982365514784467
+all_tokens,token_weighted,law,11,12,13,7,25,27560,0.015341111506946918
+all_tokens,token_weighted,law,11,12,14,20,15,25689,0.014299630388314928
+all_tokens,token_weighted,law,11,12,15,11,15,24872,0.01384485215532597
+all_tokens,token_weighted,law,11,12,16,20,21,24034,0.013378384396152476
+all_tokens,token_weighted,law,11,12,17,21,15,24019,0.013370034734592091
+all_tokens,token_weighted,law,11,12,18,30,21,23865,0.013284311542572142
+all_tokens,token_weighted,law,11,12,19,21,21,22314,0.012420956537228358
+all_tokens,token_weighted,law,11,12,20,11,21,21769,0.012117585500534378
+all_tokens,token_weighted,psychology,11,12,1,11,3,30063,0.028423960728548952
+all_tokens,token_weighted,psychology,11,12,2,24,3,26524,0.025077907539634514
+all_tokens,token_weighted,psychology,11,12,3,30,3,21249,0.02009050133123563
+all_tokens,token_weighted,psychology,11,12,4,23,3,21097,0.019946788394045747
+all_tokens,token_weighted,psychology,11,12,5,11,24,21021,0.019874931925450805
+all_tokens,token_weighted,psychology,11,12,6,30,1,17053,0.01612326788091492
+all_tokens,token_weighted,psychology,11,12,7,30,21,16203,0.015319610008471499
+all_tokens,token_weighted,psychology,11,12,8,9,1,16040,0.015165496792932349
+all_tokens,token_weighted,psychology,11,12,9,24,25,15719,0.014861997761103715
+all_tokens,token_weighted,psychology,11,12,10,21,3,15618,0.014766504296260438
+all_tokens,token_weighted,psychology,11,12,11,5,3,15155,0.014328747125741257
+all_tokens,token_weighted,psychology,11,12,12,7,25,15013,0.014194488987050708
+all_tokens,token_weighted,psychology,11,12,13,7,3,14400,0.01361490983904151
+all_tokens,token_weighted,psychology,11,12,14,11,25,13948,0.013187552946871597
+all_tokens,token_weighted,psychology,11,12,15,30,23,13827,0.01307314988502965
+all_tokens,token_weighted,psychology,11,12,16,23,25,13654,0.012909581870991166
+all_tokens,token_weighted,psychology,11,12,17,23,24,11843,0.01119731786276171
+all_tokens,token_weighted,psychology,11,12,18,30,24,11695,0.01105738684497156
+all_tokens,token_weighted,psychology,11,12,19,11,21,11605,0.010972293658477551
+all_tokens,token_weighted,psychology,11,12,20,11,18,11030,0.010428642744765824
+all_tokens,sample_equal,math,11,12,1,12,6,21043,0.023971824385686923
+all_tokens,sample_equal,math,11,12,2,30,23,14575,0.01684758668917589
+all_tokens,sample_equal,math,11,12,3,12,19,13037,0.014845482146129043
+all_tokens,sample_equal,math,11,12,4,26,19,12337,0.013827076450929518
+all_tokens,sample_equal,math,11,12,5,9,1,12946,0.013650703726374164
+all_tokens,sample_equal,math,11,12,6,15,23,11307,0.013571445707236738
+all_tokens,sample_equal,math,11,12,7,30,1,11600,0.012435118336599087
+all_tokens,sample_equal,math,11,12,8,30,6,10665,0.012266620206632651
+all_tokens,sample_equal,math,11,12,9,8,11,12374,0.012127073366526377
+all_tokens,sample_equal,math,11,12,10,26,11,10696,0.011708469355851785
+all_tokens,sample_equal,math,11,12,11,26,6,9873,0.011465129103283981
+all_tokens,sample_equal,math,11,12,12,15,6,9196,0.010913469890479897
+all_tokens,sample_equal,math,11,12,13,3,19,10131,0.010821943564231466
+all_tokens,sample_equal,math,11,12,14,9,23,9558,0.010600426830465104
+all_tokens,sample_equal,math,11,12,15,6,11,9666,0.01052150917364963
+all_tokens,sample_equal,math,11,12,16,26,7,10009,0.010505945399472147
+all_tokens,sample_equal,math,11,12,17,6,19,9249,0.010238930833358115
+all_tokens,sample_equal,math,11,12,18,8,19,10096,0.01006129450045638
+all_tokens,sample_equal,math,11,12,19,12,11,8640,0.010020323683182958
+all_tokens,sample_equal,math,11,12,20,2,11,7872,0.00954458193073983
+all_tokens,sample_equal,computer science,11,12,1,30,23,16460,0.016818276694669752
+all_tokens,sample_equal,computer science,11,12,2,12,6,20170,0.016542448117874187
+all_tokens,sample_equal,computer science,11,12,3,9,1,17209,0.015188635865466895
+all_tokens,sample_equal,computer science,11,12,4,30,1,15332,0.014307077480448478
+all_tokens,sample_equal,computer science,11,12,5,15,23,10933,0.012129926441924161
+all_tokens,sample_equal,computer science,11,12,6,30,6,12424,0.012051342881563063
+all_tokens,sample_equal,computer science,11,12,7,9,23,11227,0.010449164577646646
+all_tokens,sample_equal,computer science,11,12,8,30,21,9460,0.00962143133569587
+all_tokens,sample_equal,computer science,11,12,9,15,6,8691,0.009158424602656878
+all_tokens,sample_equal,computer science,11,12,10,9,6,9561,0.008127879827759449
+all_tokens,sample_equal,computer science,11,12,11,18,6,10215,0.007903959638461045
+all_tokens,sample_equal,computer science,11,12,12,27,23,7840,0.007477629853278033
+all_tokens,sample_equal,computer science,11,12,13,12,30,9215,0.0074598556456703935
+all_tokens,sample_equal,computer science,11,12,14,30,24,7592,0.007456396846925939
+all_tokens,sample_equal,computer science,11,12,15,12,8,9976,0.0073519133234505206
+all_tokens,sample_equal,computer science,11,12,16,15,1,7048,0.007320193152642996
+all_tokens,sample_equal,computer science,11,12,17,30,14,6684,0.006583444286305283
+all_tokens,sample_equal,computer science,11,12,18,12,19,7919,0.006457246492641051
+all_tokens,sample_equal,computer science,11,12,19,26,19,7816,0.006448224578029443
+all_tokens,sample_equal,computer science,11,12,20,11,24,5887,0.006175542885579516
+all_tokens,sample_equal,physics,11,12,1,23,13,36824,0.0311266725663203
+all_tokens,sample_equal,physics,11,12,2,12,6,24810,0.02116017115284027
+all_tokens,sample_equal,physics,11,12,3,23,11,25553,0.020767717613379134
+all_tokens,sample_equal,physics,11,12,4,26,13,24254,0.020341148293224583
+all_tokens,sample_equal,physics,11,12,5,26,11,21059,0.017554078357452988
+all_tokens,sample_equal,physics,11,12,6,23,19,21893,0.017370967947300534
+all_tokens,sample_equal,physics,11,12,7,26,19,20250,0.016564669638930465
+all_tokens,sample_equal,physics,11,12,8,30,23,15183,0.014459813469984834
+all_tokens,sample_equal,physics,11,12,9,9,1,15052,0.013357093030098527
+all_tokens,sample_equal,physics,11,12,10,7,13,15537,0.013347250709333595
+all_tokens,sample_equal,physics,11,12,11,26,6,15376,0.012707633621133673
+all_tokens,sample_equal,physics,11,12,12,6,11,15524,0.012634194555580848
+all_tokens,sample_equal,physics,11,12,13,6,13,15283,0.012443580811957589
+all_tokens,sample_equal,physics,11,12,14,30,1,13004,0.011931803671292228
+all_tokens,sample_equal,physics,11,12,15,12,19,14040,0.011504728254635235
+all_tokens,sample_equal,physics,11,12,16,30,6,12262,0.011396499312352483
+all_tokens,sample_equal,physics,11,12,17,23,6,13719,0.011323508156908935
+all_tokens,sample_equal,physics,11,12,18,15,23,11203,0.01100984094697001
+all_tokens,sample_equal,physics,11,12,19,6,19,13168,0.010620560923485749
+all_tokens,sample_equal,physics,11,12,20,23,7,12924,0.01052159659539146
+all_tokens,sample_equal,law,11,12,1,11,3,76069,0.04082753059822784
+all_tokens,sample_equal,law,11,12,2,21,3,67504,0.03723042791811408
+all_tokens,sample_equal,law,11,12,3,20,3,69398,0.03525679283991313
+all_tokens,sample_equal,law,11,12,4,11,24,60365,0.03152049747898524
+all_tokens,sample_equal,law,11,12,5,30,3,43709,0.023812330548384206
+all_tokens,sample_equal,law,11,12,6,20,24,46170,0.022797267392537495
+all_tokens,sample_equal,law,11,12,7,21,24,39436,0.020676106996392066
+all_tokens,sample_equal,law,11,12,8,21,25,36708,0.02037949725777153
+all_tokens,sample_equal,law,11,12,9,20,25,35574,0.018344472607394115
+all_tokens,sample_equal,law,11,12,10,7,3,30936,0.016924664811293455
+all_tokens,sample_equal,law,11,12,11,11,25,29773,0.01611500494402125
+all_tokens,sample_equal,law,11,12,12,30,24,28712,0.015337676243822207
+all_tokens,sample_equal,law,11,12,13,7,25,27560,0.015196972578233301
+all_tokens,sample_equal,law,11,12,14,21,15,24019,0.01420861243292899
+all_tokens,sample_equal,law,11,12,15,11,15,24872,0.0141296887259662
+all_tokens,sample_equal,law,11,12,16,30,21,23865,0.0136713906426708
+all_tokens,sample_equal,law,11,12,17,20,15,25689,0.01351998701359971
+all_tokens,sample_equal,law,11,12,18,21,21,22314,0.012440724407105324
+all_tokens,sample_equal,law,11,12,19,21,26,20892,0.01238254881534874
+all_tokens,sample_equal,law,11,12,20,30,1,21202,0.012359195422045182
+all_tokens,sample_equal,psychology,11,12,1,11,3,30063,0.02812576916440709
+all_tokens,sample_equal,psychology,11,12,2,24,3,26524,0.024744045661003886
+all_tokens,sample_equal,psychology,11,12,3,23,3,21097,0.019998522822674
+all_tokens,sample_equal,psychology,11,12,4,30,3,21249,0.019986070072938966
+all_tokens,sample_equal,psychology,11,12,5,11,24,21021,0.019347930062433343
+all_tokens,sample_equal,psychology,11,12,6,30,1,17053,0.0163331506570048
+all_tokens,sample_equal,psychology,11,12,7,30,21,16203,0.015693331202654873
+all_tokens,sample_equal,psychology,11,12,8,9,1,16040,0.015260735100058273
+all_tokens,sample_equal,psychology,11,12,9,24,25,15719,0.01479543648118244
+all_tokens,sample_equal,psychology,11,12,10,7,25,15013,0.014424383296463242
+all_tokens,sample_equal,psychology,11,12,11,30,23,13827,0.01437942777682156
+all_tokens,sample_equal,psychology,11,12,12,5,3,15155,0.014249044610728727
+all_tokens,sample_equal,psychology,11,12,13,21,3,15618,0.014223909999342936
+all_tokens,sample_equal,psychology,11,12,14,7,3,14400,0.013602622729925675
+all_tokens,sample_equal,psychology,11,12,15,11,25,13948,0.013358191537058185
+all_tokens,sample_equal,psychology,11,12,16,23,25,13654,0.013160497571645273
+all_tokens,sample_equal,psychology,11,12,17,23,24,11843,0.011253376621209227
+all_tokens,sample_equal,psychology,11,12,18,11,21,11605,0.01083045488172269
+all_tokens,sample_equal,psychology,11,12,19,30,24,11695,0.010786998778334498
+all_tokens,sample_equal,psychology,11,12,20,11,18,11030,0.010559872217004506

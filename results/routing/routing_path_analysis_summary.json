@@ -1,0 +1,160 @@
+{
+  "built_at_utc": "2026-10-06T12:53:15.952521+00:00",
+  "component_manifests": [
+    {
+      "output_count": 6,
+      "path": "metadata/routing_path_step03b_manifest.json",
+      "sha256": "e46b6a621b6fa85d6fd6c1c4af0f65a9e75d8ce4dbb6c42fe9189de32520c1f1",
+      "size_bytes": 3156,
+      "status": "complete",
+      "step": "03B_adjacent_layer_continuity"
+    },
+    {
+      "output_count": 6,
+      "path": "metadata/routing_path_step03c_manifest.json",
+      "sha256": "05ee54bdaf62a3edeb7e840769c49576b679452c059e46e8324f5c78570b9c90",
+      "size_bytes": 3279,
+      "status": "complete",
+      "step": "03C_focused_transitions"
+    },
+    {
+      "output_count": 5,
+      "path": "metadata/routing_path_step03d_manifest.json",
+      "sha256": "e84214d083ccd5a4a61f6860aa55ec6586f42f962ef0ad8cd7b5cde92ca7db9d",
+      "size_bytes": 2801,
+      "status": "complete",
+      "step": "03D_top4_combinations"
+    },
+    {
+      "output_count": 6,
+      "path": "metadata/routing_path_step03e_manifest.json",
+      "sha256": "f30b24f98f2bf38bcad50620a6864ff211a44d80302b855b2778b6d7f564ea4e",
+      "size_bytes": 3971,
+      "status": "complete",
+      "step": "03E_path_controls"
+    }
+  ],
+  "dense_sae_matrix_created": false,
+  "inputs": {
+    "experts": 32,
+    "layers": 24,
+    "samples": 2000,
+    "tokens_all": 382685,
+    "tokens_primary": 380685,
+    "top_k": 4
+  },
+  "interpretation": "The results support domain-related routing differences in continuity, cross-layer ID co-occurrence, and within-layer Top-4 combinations.",
+  "limitations": [
+    "Equal expert IDs at different layers denote different parameter modules.",
+    "Cartesian cross-layer co-occurrence is not causal flow.",
+    "Domain is confounded with dataset/source and text format in the current design.",
+    "Routing differences alone do not establish functional specialization.",
+    "Sparse individual token classes are diagnostic only."
+  ],
+  "model_inference_rerun": false,
+  "objective": "Describe adjacent-layer Top-4 ID continuity, focused cross-layer co-occurrence, and within-layer ordered/unordered combinations with frozen controls.",
+  "status": "complete",
+  "step": "03_routing_path_and_expert_combinations",
+  "step03b_adjacent": {
+    "computer science": {
+      "jaccard_10_to_11": 0.0703339443485907,
+      "jaccard_11_to_12": 0.0405667413163301
+    },
+    "law": {
+      "jaccard_10_to_11": 0.0968906726613184,
+      "jaccard_11_to_12": 0.069178749118433
+    },
+    "math": {
+      "jaccard_10_to_11": 0.0605538190299819,
+      "jaccard_11_to_12": 0.0450151458777903
+    },
+    "physics": {
+      "jaccard_10_to_11": 0.0601576902059711,
+      "jaccard_11_to_12": 0.0494648273655826
+    },
+    "psychology": {
+      "jaccard_10_to_11": 0.129677628267514,
+      "jaccard_11_to_12": 0.0583170990189817
+    }
+  },
+  "step03c_transition": {
+    "entropy_range_bits": [
+      7.102507450707841,
+      8.755364449091271
+    ],
+    "pairwise_domain_jsd_range_bits": [
+      0.1333526462617263,
+      0.5827767218934048
+    ],
+    "top20_mass_range": [
+      0.1961593883669523,
+      0.4089387306820424
+    ]
+  },
+  "step03d_combinations_layer11_12": {
+    "effective_combination_count_range": [
+      132.88753116324523,
+      9130.124074181203
+    ],
+    "pairwise_domain_jsd_range_bits": [
+      0.3240404846411711,
+      0.8715543658558811
+    ],
+    "top50_mass_range": [
+      0.1193777204365654,
+      0.6757894457659283
+    ],
+    "unique_combination_range": [
+      1738,
+      26858
+    ]
+  },
+  "step03e_controls": {
+    "analyzable_settings": 21,
+    "diagnostic_minimum_samples_per_domain_range": [
+      2,
+      400
+    ],
+    "diagnostic_settings": 8,
+    "fixed_truncation_n": 50,
+    "frozen_length_matched_samples": 930,
+    "robust_mean_pairwise_jsd_range_bits": [
+      0.1533652078028224,
+      0.6900452222196511
+    ],
+    "robustness_settings": 14,
+    "settings": 22
+  },
+  "validation_suite": [
+    {
+      "sha256": "08cc4599f543094c595890c2ee49483e060d6cff79e36bfb9d6c56c53f0ed123",
+      "status": "passed",
+      "stdout_contains_passed": true,
+      "validator": "03_validate_inputs.py"
+    },
+    {
+      "sha256": "3de7a1766552a25dfa031391f20ae2315c6236b2946097ec3e238fd41774a0b2",
+      "status": "passed",
+      "stdout_contains_passed": true,
+      "validator": "03b_validate_outputs.py"
+    },
+    {
+      "sha256": "a6454dc3870c05b7770bd1d55226e6688d5ad5c76573a94da0a3b69c01cabf5f",
+      "status": "passed",
+      "stdout_contains_passed": true,
+      "validator": "03c_validate_outputs.py"
+    },
+    {
+      "sha256": "b2a2f8171df75fca844e7a8b8fa9d37fa9276027b0dcd000f3e314cb014ca33e",
+      "status": "passed",
+      "stdout_contains_passed": true,
+      "validator": "03d_validate_outputs.py"
+    },
+    {
+      "sha256": "f96ac2d11685a083363ffcd7a42626f8bb6b459fa743a8d67af28822fbf23b77",
+      "status": "passed",
+      "stdout_contains_passed": true,
+      "validator": "03e_validate_outputs.py"
+    }
+  ]
+}

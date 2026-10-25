@@ -1,0 +1,4 @@
+dimension,global_category_count,candidate_count,median_top_category_active_token_share,minimum_top_category_active_token_share,maximum_top_category_active_token_share,median_normalized_entropy,minimum_normalized_entropy,maximum_normalized_entropy
+domain,5,94,0.24416325539443556,0.2,0.870600414078675,0.9933010238893868,0.32224479849459464,1.0000000000000002
+token_class,7,94,0.9067821930086645,0.3521531100478469,1.0,0.19805194923528308,-0.0,0.7085031018459654
+prompt_segment,3,94,0.9467329545454546,0.37817997721807367,1.0,0.2131046409607155,-0.0,0.9922134868635484

@@ -1,0 +1,36 @@
+# Private or large research data
+/data/
+*.npz
+*.parquet
+*.sqlite
+*.sqlite3
+*.db
+*.tar
+*.tar.gz
+*.gz
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*credentials*
+*secret*
+.secrets/
+api_keys.txt
+
+# Generated/runtime files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+logs/
+raw_api/
+runtime/
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

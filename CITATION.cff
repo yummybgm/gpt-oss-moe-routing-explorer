@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "GPT-OSS MoE Routing Explorer"
+type: software
+authors:
+  - family-names: "He"
+    given-names: "Zhiyun"
+repository-code: "https://github.com/yummybgm/gpt-oss-moe-routing-explorer"
+license: MIT

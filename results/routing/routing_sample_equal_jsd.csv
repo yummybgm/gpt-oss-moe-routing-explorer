@@ -1,0 +1,481 @@
+population,layer,domain_1,domain_2,n_samples_domain_1,n_samples_domain_2,sample_equal_jsd_bits
+primary_inference,0,math,computer science,400,400,0.02137843587689367
+primary_inference,0,math,physics,400,400,0.002972601164875655
+primary_inference,0,math,law,400,400,0.12473610711416501
+primary_inference,0,math,psychology,400,400,0.08313748769224129
+primary_inference,0,computer science,physics,400,400,0.021503951716832358
+primary_inference,0,computer science,law,400,400,0.08521687060973965
+primary_inference,0,computer science,psychology,400,400,0.04609958906090911
+primary_inference,0,physics,law,400,400,0.11772809347471883
+primary_inference,0,physics,psychology,400,400,0.0746566183557226
+primary_inference,0,law,psychology,400,400,0.020745328413311052
+primary_inference,1,math,computer science,400,400,0.02383844994233928
+primary_inference,1,math,physics,400,400,0.06017395259868931
+primary_inference,1,math,law,400,400,0.14132327074469214
+primary_inference,1,math,psychology,400,400,0.11804103408502509
+primary_inference,1,computer science,physics,400,400,0.07682682122576995
+primary_inference,1,computer science,law,400,400,0.09345292696609009
+primary_inference,1,computer science,psychology,400,400,0.09738657587639984
+primary_inference,1,physics,law,400,400,0.17606937744552076
+primary_inference,1,physics,psychology,400,400,0.16918742487483396
+primary_inference,1,law,psychology,400,400,0.051702369688543325
+primary_inference,2,math,computer science,400,400,0.038492590577005756
+primary_inference,2,math,physics,400,400,0.037550684579314084
+primary_inference,2,math,law,400,400,0.20298261693418448
+primary_inference,2,math,psychology,400,400,0.13907999031354817
+primary_inference,2,computer science,physics,400,400,0.08290793355571838
+primary_inference,2,computer science,law,400,400,0.1721379392577586
+primary_inference,2,computer science,psychology,400,400,0.11267816851824987
+primary_inference,2,physics,law,400,400,0.18308646526554467
+primary_inference,2,physics,psychology,400,400,0.12735495072249847
+primary_inference,2,law,psychology,400,400,0.01835245612330095
+primary_inference,3,math,computer science,400,400,0.06516846491475266
+primary_inference,3,math,physics,400,400,0.09909559979759466
+primary_inference,3,math,law,400,400,0.22339902201134837
+primary_inference,3,math,psychology,400,400,0.1943056371944331
+primary_inference,3,computer science,physics,400,400,0.2087598611338513
+primary_inference,3,computer science,law,400,400,0.23482046046112648
+primary_inference,3,computer science,psychology,400,400,0.19732194509905757
+primary_inference,3,physics,law,400,400,0.22851274621896978
+primary_inference,3,physics,psychology,400,400,0.20695332089423613
+primary_inference,3,law,psychology,400,400,0.08476603051426013
+primary_inference,4,math,computer science,400,400,0.06462541505898631
+primary_inference,4,math,physics,400,400,0.12658493229540657
+primary_inference,4,math,law,400,400,0.2853675600134032
+primary_inference,4,math,psychology,400,400,0.18948557312917946
+primary_inference,4,computer science,physics,400,400,0.19709820316609422
+primary_inference,4,computer science,law,400,400,0.26423533179118297
+primary_inference,4,computer science,psychology,400,400,0.1903161913696822
+primary_inference,4,physics,law,400,400,0.2998085784461615
+primary_inference,4,physics,psychology,400,400,0.25421436159664074
+primary_inference,4,law,psychology,400,400,0.09746553163416838
+primary_inference,5,math,computer science,400,400,0.03899470750436304
+primary_inference,5,math,physics,400,400,0.0767939648978937
+primary_inference,5,math,law,400,400,0.2468436316789619
+primary_inference,5,math,psychology,400,400,0.1780097206425968
+primary_inference,5,computer science,physics,400,400,0.12019637616925433
+primary_inference,5,computer science,law,400,400,0.23200981353499261
+primary_inference,5,computer science,psychology,400,400,0.1599428687192069
+primary_inference,5,physics,law,400,400,0.24054898462303836
+primary_inference,5,physics,psychology,400,400,0.15944191470998623
+primary_inference,5,law,psychology,400,400,0.06057812160812977
+primary_inference,6,math,computer science,400,400,0.04159936140157089
+primary_inference,6,math,physics,400,400,0.060279089723930285
+primary_inference,6,math,law,400,400,0.23480146257857942
+primary_inference,6,math,psychology,400,400,0.19898686138026508
+primary_inference,6,computer science,physics,400,400,0.08969117068263621
+primary_inference,6,computer science,law,400,400,0.15383915996627165
+primary_inference,6,computer science,psychology,400,400,0.11991013021408306
+primary_inference,6,physics,law,400,400,0.22973216367240207
+primary_inference,6,physics,psychology,400,400,0.19371665530611282
+primary_inference,6,law,psychology,400,400,0.025772853628612747
+primary_inference,7,math,computer science,400,400,0.020220182567359787
+primary_inference,7,math,physics,400,400,0.03877526388833761
+primary_inference,7,math,law,400,400,0.17943378709547586
+primary_inference,7,math,psychology,400,400,0.11375855535402526
+primary_inference,7,computer science,physics,400,400,0.0654155820229617
+primary_inference,7,computer science,law,400,400,0.14742719377156865
+primary_inference,7,computer science,psychology,400,400,0.07556346905928121
+primary_inference,7,physics,law,400,400,0.20309588581838356
+primary_inference,7,physics,psychology,400,400,0.1354899993580953
+primary_inference,7,law,psychology,400,400,0.032889582007259555
+primary_inference,8,math,computer science,400,400,0.04043996169082024
+primary_inference,8,math,physics,400,400,0.05576397900671187
+primary_inference,8,math,law,400,400,0.26565594257268527
+primary_inference,8,math,psychology,400,400,0.2024551721069718
+primary_inference,8,computer science,physics,400,400,0.10342650368449387
+primary_inference,8,computer science,law,400,400,0.1637896661379533
+primary_inference,8,computer science,psychology,400,400,0.1250039609343596
+primary_inference,8,physics,law,400,400,0.27333232010167596
+primary_inference,8,physics,psychology,400,400,0.18139905089698902
+primary_inference,8,law,psychology,400,400,0.07672111659624253
+primary_inference,9,math,computer science,400,400,0.07250728184016361
+primary_inference,9,math,physics,400,400,0.0484487271516188
+primary_inference,9,math,law,400,400,0.30180832668970003
+primary_inference,9,math,psychology,400,400,0.2227023137775208
+primary_inference,9,computer science,physics,400,400,0.11374837869841956
+primary_inference,9,computer science,law,400,400,0.27886255106557767
+primary_inference,9,computer science,psychology,400,400,0.17856402379973618
+primary_inference,9,physics,law,400,400,0.2993741504029997
+primary_inference,9,physics,psychology,400,400,0.2390286818901178
+primary_inference,9,law,psychology,400,400,0.07313984347097241
+primary_inference,10,math,computer science,400,400,0.06977864920642458
+primary_inference,10,math,physics,400,400,0.09848833111680763
+primary_inference,10,math,law,400,400,0.3895969165471671
+primary_inference,10,math,psychology,400,400,0.26740777020252904
+primary_inference,10,computer science,physics,400,400,0.14353809984184623
+primary_inference,10,computer science,law,400,400,0.3471301645485743
+primary_inference,10,computer science,psychology,400,400,0.2229717589568977
+primary_inference,10,physics,law,400,400,0.4159071013879603
+primary_inference,10,physics,psychology,400,400,0.26037296140004074
+primary_inference,10,law,psychology,400,400,0.08511680137082848
+primary_inference,11,math,computer science,400,400,0.07991654948465599
+primary_inference,11,math,physics,400,400,0.10975937522789586
+primary_inference,11,math,law,400,400,0.376154984664604
+primary_inference,11,math,psychology,400,400,0.27000797175877495
+primary_inference,11,computer science,physics,400,400,0.1838871398956448
+primary_inference,11,computer science,law,400,400,0.3206154584348866
+primary_inference,11,computer science,psychology,400,400,0.2294180903486746
+primary_inference,11,physics,law,400,400,0.39952268529783885
+primary_inference,11,physics,psychology,400,400,0.2463031811931532
+primary_inference,11,law,psychology,400,400,0.10713399578352509
+primary_inference,12,math,computer science,400,400,0.08588593815995083
+primary_inference,12,math,physics,400,400,0.0510198524878491
+primary_inference,12,math,law,400,400,0.3572849538872902
+primary_inference,12,math,psychology,400,400,0.2570810687829661
+primary_inference,12,computer science,physics,400,400,0.1466792623967077
+primary_inference,12,computer science,law,400,400,0.2891087257619721
+primary_inference,12,computer science,psychology,400,400,0.19714104282459194
+primary_inference,12,physics,law,400,400,0.39852561890515936
+primary_inference,12,physics,psychology,400,400,0.28796732750865484
+primary_inference,12,law,psychology,400,400,0.06858042069026406
+primary_inference,13,math,computer science,400,400,0.06691109659954955
+primary_inference,13,math,physics,400,400,0.07192515919787466
+primary_inference,13,math,law,400,400,0.38720148869666027
+primary_inference,13,math,psychology,400,400,0.22963795060111913
+primary_inference,13,computer science,physics,400,400,0.14005677359360935
+primary_inference,13,computer science,law,400,400,0.32689906757457715
+primary_inference,13,computer science,psychology,400,400,0.16961079316513689
+primary_inference,13,physics,law,400,400,0.4069113943501803
+primary_inference,13,physics,psychology,400,400,0.24204729648285028
+primary_inference,13,law,psychology,400,400,0.08732940518443352
+primary_inference,14,math,computer science,400,400,0.023522662130279186
+primary_inference,14,math,physics,400,400,0.0070712121397122
+primary_inference,14,math,law,400,400,0.18178913977224664
+primary_inference,14,math,psychology,400,400,0.13243189566362984
+primary_inference,14,computer science,physics,400,400,0.025019643605289264
+primary_inference,14,computer science,law,400,400,0.11536369661236705
+primary_inference,14,computer science,psychology,400,400,0.07394445164908872
+primary_inference,14,physics,law,400,400,0.16908055609932549
+primary_inference,14,physics,psychology,400,400,0.122032691750627
+primary_inference,14,law,psychology,400,400,0.026638394180895968
+primary_inference,15,math,computer science,400,400,0.020610993838107883
+primary_inference,15,math,physics,400,400,0.02410553913869941
+primary_inference,15,math,law,400,400,0.20051088927576352
+primary_inference,15,math,psychology,400,400,0.13090429565598483
+primary_inference,15,computer science,physics,400,400,0.027705770046486958
+primary_inference,15,computer science,law,400,400,0.14733936802793884
+primary_inference,15,computer science,psychology,400,400,0.08281511626936205
+primary_inference,15,physics,law,400,400,0.18276917872485032
+primary_inference,15,physics,psychology,400,400,0.11210197649217085
+primary_inference,15,law,psychology,400,400,0.026439408681561888
+primary_inference,16,math,computer science,400,400,0.022354128564933542
+primary_inference,16,math,physics,400,400,0.009297017359974968
+primary_inference,16,math,law,400,400,0.16558320345560795
+primary_inference,16,math,psychology,400,400,0.13155043301262076
+primary_inference,16,computer science,physics,400,400,0.016832472251921856
+primary_inference,16,computer science,law,400,400,0.0983622702223666
+primary_inference,16,computer science,psychology,400,400,0.0668409004143373
+primary_inference,16,physics,law,400,400,0.12881107648957885
+primary_inference,16,physics,psychology,400,400,0.100305466466068
+primary_inference,16,law,psychology,400,400,0.016719974933188456
+primary_inference,17,math,computer science,400,400,0.04340338108116483
+primary_inference,17,math,physics,400,400,0.02668730047887142
+primary_inference,17,math,law,400,400,0.22811367797912974
+primary_inference,17,math,psychology,400,400,0.16757041613718865
+primary_inference,17,computer science,physics,400,400,0.057647458844884356
+primary_inference,17,computer science,law,400,400,0.15393468722923664
+primary_inference,17,computer science,psychology,400,400,0.10103882682558898
+primary_inference,17,physics,law,400,400,0.2181984160229169
+primary_inference,17,physics,psychology,400,400,0.1480304581818983
+primary_inference,17,law,psychology,400,400,0.020555478815379613
+primary_inference,18,math,computer science,400,400,0.03806046951847898
+primary_inference,18,math,physics,400,400,0.013439357485380625
+primary_inference,18,math,law,400,400,0.18447140095947073
+primary_inference,18,math,psychology,400,400,0.15122918306294925
+primary_inference,18,computer science,physics,400,400,0.04304470194156414
+primary_inference,18,computer science,law,400,400,0.09180627595016477
+primary_inference,18,computer science,psychology,400,400,0.05750439841434363
+primary_inference,18,physics,law,400,400,0.16433600027441886
+primary_inference,18,physics,psychology,400,400,0.1280958301939064
+primary_inference,18,law,psychology,400,400,0.02377943645046752
+primary_inference,19,math,computer science,400,400,0.03933108580463026
+primary_inference,19,math,physics,400,400,0.017431573345115785
+primary_inference,19,math,law,400,400,0.19745304675911204
+primary_inference,19,math,psychology,400,400,0.13058848152354818
+primary_inference,19,computer science,physics,400,400,0.04218702672755367
+primary_inference,19,computer science,law,400,400,0.16187237880287156
+primary_inference,19,computer science,psychology,400,400,0.09758407097713942
+primary_inference,19,physics,law,400,400,0.15902144112045374
+primary_inference,19,physics,psychology,400,400,0.09701519250526686
+primary_inference,19,law,psychology,400,400,0.02736204482234264
+primary_inference,20,math,computer science,400,400,0.031459195753084056
+primary_inference,20,math,physics,400,400,0.044907018615878744
+primary_inference,20,math,law,400,400,0.16236810155341638
+primary_inference,20,math,psychology,400,400,0.12367510102813244
+primary_inference,20,computer science,physics,400,400,0.045152944144460194
+primary_inference,20,computer science,law,400,400,0.11923076350972858
+primary_inference,20,computer science,psychology,400,400,0.07470026135485712
+primary_inference,20,physics,law,400,400,0.16950428130735362
+primary_inference,20,physics,psychology,400,400,0.1201867979445373
+primary_inference,20,law,psychology,400,400,0.030764629563772124
+primary_inference,21,math,computer science,400,400,0.04669755126401049
+primary_inference,21,math,physics,400,400,0.04396030994973278
+primary_inference,21,math,law,400,400,0.16356872720569432
+primary_inference,21,math,psychology,400,400,0.1318218711893415
+primary_inference,21,computer science,physics,400,400,0.07631050322788968
+primary_inference,21,computer science,law,400,400,0.1578030246278039
+primary_inference,21,computer science,psychology,400,400,0.11426587070253458
+primary_inference,21,physics,law,400,400,0.16903899926010973
+primary_inference,21,physics,psychology,400,400,0.10655199597829186
+primary_inference,21,law,psychology,400,400,0.08345871502566755
+primary_inference,22,math,computer science,400,400,0.042617754402466186
+primary_inference,22,math,physics,400,400,0.024855721824033134
+primary_inference,22,math,law,400,400,0.12198047442215293
+primary_inference,22,math,psychology,400,400,0.09992380467315148
+primary_inference,22,computer science,physics,400,400,0.07098082669515633
+primary_inference,22,computer science,law,400,400,0.09861074612293666
+primary_inference,22,computer science,psychology,400,400,0.05161958776640782
+primary_inference,22,physics,law,400,400,0.1344748733439809
+primary_inference,22,physics,psychology,400,400,0.12381728888295745
+primary_inference,22,law,psychology,400,400,0.03428683004444738
+primary_inference,23,math,computer science,400,400,0.037445671709869253
+primary_inference,23,math,physics,400,400,0.017002377879813582
+primary_inference,23,math,law,400,400,0.12700611322701594
+primary_inference,23,math,psychology,400,400,0.09504057646666178
+primary_inference,23,computer science,physics,400,400,0.04696524903231336
+primary_inference,23,computer science,law,400,400,0.11259858384001387
+primary_inference,23,computer science,psychology,400,400,0.08107729367812505
+primary_inference,23,physics,law,400,400,0.12199980611072392
+primary_inference,23,physics,psychology,400,400,0.09239308787103903
+primary_inference,23,law,psychology,400,400,0.018732555493360004
+all_tokens,0,math,computer science,400,400,0.02053434026227262
+all_tokens,0,math,physics,400,400,0.00296355486042703
+all_tokens,0,math,law,400,400,0.12388688911935267
+all_tokens,0,math,psychology,400,400,0.08239586599466558
+all_tokens,0,computer science,physics,400,400,0.020859401011996716
+all_tokens,0,computer science,law,400,400,0.08493908348682921
+all_tokens,0,computer science,psychology,400,400,0.04549607834599516
+all_tokens,0,physics,law,400,400,0.11707678355273374
+all_tokens,0,physics,psychology,400,400,0.07422065825462171
+all_tokens,0,law,psychology,400,400,0.020697177423354467
+all_tokens,1,math,computer science,400,400,0.022050966617414527
+all_tokens,1,math,physics,400,400,0.05954675250866333
+all_tokens,1,math,law,400,400,0.14031617931843532
+all_tokens,1,math,psychology,400,400,0.1164944063114817
+all_tokens,1,computer science,physics,400,400,0.07465592476581542
+all_tokens,1,computer science,law,400,400,0.0919875169457707
+all_tokens,1,computer science,psychology,400,400,0.09431590442082194
+all_tokens,1,physics,law,400,400,0.17490855968472696
+all_tokens,1,physics,psychology,400,400,0.16725491795770633
+all_tokens,1,law,psychology,400,400,0.051132478351374244
+all_tokens,2,math,computer science,400,400,0.0350468834879375
+all_tokens,2,math,physics,400,400,0.037189884770321924
+all_tokens,2,math,law,400,400,0.20114757824646393
+all_tokens,2,math,psychology,400,400,0.13781482304904327
+all_tokens,2,computer science,physics,400,400,0.08014918640583238
+all_tokens,2,computer science,law,400,400,0.1709249771015218
+all_tokens,2,computer science,psychology,400,400,0.10953441236572597
+all_tokens,2,physics,law,400,400,0.18192821396608666
+all_tokens,2,physics,psychology,400,400,0.1265188556424719
+all_tokens,2,law,psychology,400,400,0.01801881097431167
+all_tokens,3,math,computer science,400,400,0.06456618245112719
+all_tokens,3,math,physics,400,400,0.09836738135662014
+all_tokens,3,math,law,400,400,0.2218227520660258
+all_tokens,3,math,psychology,400,400,0.19247225899547074
+all_tokens,3,computer science,physics,400,400,0.20727418788886293
+all_tokens,3,computer science,law,400,400,0.23339889991437668
+all_tokens,3,computer science,psychology,400,400,0.195812594813657
+all_tokens,3,physics,law,400,400,0.22692134110327977
+all_tokens,3,physics,psychology,400,400,0.2053820430383987
+all_tokens,3,law,psychology,400,400,0.08428721637657706
+all_tokens,4,math,computer science,400,400,0.06309240393568097
+all_tokens,4,math,physics,400,400,0.12544538164015873
+all_tokens,4,math,law,400,400,0.282926194892538
+all_tokens,4,math,psychology,400,400,0.1862490818609187
+all_tokens,4,computer science,physics,400,400,0.1945219028146764
+all_tokens,4,computer science,law,400,400,0.2619472857409123
+all_tokens,4,computer science,psychology,400,400,0.18730779886939625
+all_tokens,4,physics,law,400,400,0.29781787400558823
+all_tokens,4,physics,psychology,400,400,0.251181549308758
+all_tokens,4,law,psychology,400,400,0.0969909828554186
+all_tokens,5,math,computer science,400,400,0.038474875068179835
+all_tokens,5,math,physics,400,400,0.07611970606518983
+all_tokens,5,math,law,400,400,0.2449523978501447
+all_tokens,5,math,psychology,400,400,0.17568494765423134
+all_tokens,5,computer science,physics,400,400,0.11904186096078642
+all_tokens,5,computer science,law,400,400,0.23073893669287798
+all_tokens,5,computer science,psychology,400,400,0.15851409613433598
+all_tokens,5,physics,law,400,400,0.23866560856942132
+all_tokens,5,physics,psychology,400,400,0.15733195441138514
+all_tokens,5,law,psychology,400,400,0.060432369044452414
+all_tokens,6,math,computer science,400,400,0.040473985248242084
+all_tokens,6,math,physics,400,400,0.05979184792897228
+all_tokens,6,math,law,400,400,0.23293158030335379
+all_tokens,6,math,psychology,400,400,0.19683192468455138
+all_tokens,6,computer science,physics,400,400,0.08861752334909584
+all_tokens,6,computer science,law,400,400,0.15282876338125004
+all_tokens,6,computer science,psychology,400,400,0.1185246861130677
+all_tokens,6,physics,law,400,400,0.2284314319202988
+all_tokens,6,physics,psychology,400,400,0.1922743299875472
+all_tokens,6,law,psychology,400,400,0.025712304202627927
+all_tokens,7,math,computer science,400,400,0.019984527647008057
+all_tokens,7,math,physics,400,400,0.03815079360646215
+all_tokens,7,math,law,400,400,0.1778523714536812
+all_tokens,7,math,psychology,400,400,0.11220268095591501
+all_tokens,7,computer science,physics,400,400,0.06451475457560227
+all_tokens,7,computer science,law,400,400,0.14636007326388378
+all_tokens,7,computer science,psychology,400,400,0.07455219712815751
+all_tokens,7,physics,law,400,400,0.20138826491922152
+all_tokens,7,physics,psychology,400,400,0.1342681048130872
+all_tokens,7,law,psychology,400,400,0.032712708700772385
+all_tokens,8,math,computer science,400,400,0.03992836036775269
+all_tokens,8,math,physics,400,400,0.055014598672796546
+all_tokens,8,math,law,400,400,0.26139563590791803
+all_tokens,8,math,psychology,400,400,0.199448275073892
+all_tokens,8,computer science,physics,400,400,0.10201406030006535
+all_tokens,8,computer science,law,400,400,0.16122495513642193
+all_tokens,8,computer science,psychology,400,400,0.12285386358162638
+all_tokens,8,physics,law,400,400,0.26829541213285846
+all_tokens,8,physics,psychology,400,400,0.1785401804834191
+all_tokens,8,law,psychology,400,400,0.07463763213999648
+all_tokens,9,math,computer science,400,400,0.07173482850389548
+all_tokens,9,math,physics,400,400,0.04759116736264149
+all_tokens,9,math,law,400,400,0.299563019483176
+all_tokens,9,math,psychology,400,400,0.21930909868598925
+all_tokens,9,computer science,physics,400,400,0.11244059337878687
+all_tokens,9,computer science,law,400,400,0.27734432615194277
+all_tokens,9,computer science,psychology,400,400,0.17626351717912517
+all_tokens,9,physics,law,400,400,0.29699872345464096
+all_tokens,9,physics,psychology,400,400,0.23587497879798427
+all_tokens,9,law,psychology,400,400,0.0721770974047275
+all_tokens,10,math,computer science,400,400,0.06917919158834504
+all_tokens,10,math,physics,400,400,0.09754622169190992
+all_tokens,10,math,law,400,400,0.38663037599787087
+all_tokens,10,math,psychology,400,400,0.264869835749401
+all_tokens,10,computer science,physics,400,400,0.14238701666211395
+all_tokens,10,computer science,law,400,400,0.3448308582066629
+all_tokens,10,computer science,psychology,400,400,0.22109572420531654
+all_tokens,10,physics,law,400,400,0.4132976964609489
+all_tokens,10,physics,psychology,400,400,0.2585357488479644
+all_tokens,10,law,psychology,400,400,0.0845808986683251
+all_tokens,11,math,computer science,400,400,0.07899920185689176
+all_tokens,11,math,physics,400,400,0.1087831560487043
+all_tokens,11,math,law,400,400,0.37269552467773537
+all_tokens,11,math,psychology,400,400,0.2658960850379083
+all_tokens,11,computer science,physics,400,400,0.1824677132700161
+all_tokens,11,computer science,law,400,400,0.31861920822943945
+all_tokens,11,computer science,psychology,400,400,0.226877543394348
+all_tokens,11,physics,law,400,400,0.3964970579047874
+all_tokens,11,physics,psychology,400,400,0.24326577953395745
+all_tokens,11,law,psychology,400,400,0.10647282121252968
+all_tokens,12,math,computer science,400,400,0.08511663006314063
+all_tokens,12,math,physics,400,400,0.05061539118014007
+all_tokens,12,math,law,400,400,0.35383890559997244
+all_tokens,12,math,psychology,400,400,0.25463945937888766
+all_tokens,12,computer science,physics,400,400,0.1456045207468389
+all_tokens,12,computer science,law,400,400,0.28643010482671327
+all_tokens,12,computer science,psychology,400,400,0.1956926153550012
+all_tokens,12,physics,law,400,400,0.39496772130490965
+all_tokens,12,physics,psychology,400,400,0.2856944359515288
+all_tokens,12,law,psychology,400,400,0.0672022381936682
+all_tokens,13,math,computer science,400,400,0.06616738735637798
+all_tokens,13,math,physics,400,400,0.07114647340327412
+all_tokens,13,math,law,400,400,0.3842828802279864
+all_tokens,13,math,psychology,400,400,0.2271932697157312
+all_tokens,13,computer science,physics,400,400,0.13845706959961696
+all_tokens,13,computer science,law,400,400,0.32408390699877554
+all_tokens,13,computer science,psychology,400,400,0.16758984666577326
+all_tokens,13,physics,law,400,400,0.4044904631599662
+all_tokens,13,physics,psychology,400,400,0.2399131478824912
+all_tokens,13,law,psychology,400,400,0.08698748896515429
+all_tokens,14,math,computer science,400,400,0.023189996629651148
+all_tokens,14,math,physics,400,400,0.0069598839152861264
+all_tokens,14,math,law,400,400,0.18086069126822396
+all_tokens,14,math,psychology,400,400,0.13107429027786116
+all_tokens,14,computer science,physics,400,400,0.0247973541009281
+all_tokens,14,computer science,law,400,400,0.11496836589026352
+all_tokens,14,computer science,psychology,400,400,0.07313798375279341
+all_tokens,14,physics,law,400,400,0.16827979990724257
+all_tokens,14,physics,psychology,400,400,0.12107330952866675
+all_tokens,14,law,psychology,400,400,0.026493528787029826
+all_tokens,15,math,computer science,400,400,0.02036838395153623
+all_tokens,15,math,physics,400,400,0.023373018967416743
+all_tokens,15,math,law,400,400,0.1994773926116747
+all_tokens,15,math,psychology,400,400,0.12975978466932636
+all_tokens,15,computer science,physics,400,400,0.02713144460161654
+all_tokens,15,computer science,law,400,400,0.14680707835609252
+all_tokens,15,computer science,psychology,400,400,0.08225544028852097
+all_tokens,15,physics,law,400,400,0.18176022233250172
+all_tokens,15,physics,psychology,400,400,0.11111975112454711
+all_tokens,15,law,psychology,400,400,0.02647438089645092
+all_tokens,16,math,computer science,400,400,0.0220786898077658
+all_tokens,16,math,physics,400,400,0.009098362398683165
+all_tokens,16,math,law,400,400,0.16441435361652101
+all_tokens,16,math,psychology,400,400,0.13027677016678094
+all_tokens,16,computer science,physics,400,400,0.01671289574572965
+all_tokens,16,computer science,law,400,400,0.0979057373049407
+all_tokens,16,computer science,psychology,400,400,0.06632256001847762
+all_tokens,16,physics,law,400,400,0.12824973223593594
+all_tokens,16,physics,psychology,400,400,0.09968845093618256
+all_tokens,16,law,psychology,400,400,0.016751355491989833
+all_tokens,17,math,computer science,400,400,0.042873423025791696
+all_tokens,17,math,physics,400,400,0.026449855330858328
+all_tokens,17,math,law,400,400,0.2255337199533286
+all_tokens,17,math,psychology,400,400,0.16554103749996513
+all_tokens,17,computer science,physics,400,400,0.057238753046579376
+all_tokens,17,computer science,law,400,400,0.1526314373702317
+all_tokens,17,computer science,psychology,400,400,0.10011481883748585
+all_tokens,17,physics,law,400,400,0.21623773955830955
+all_tokens,17,physics,psychology,400,400,0.14668181497379462
+all_tokens,17,law,psychology,400,400,0.020443900794746582
+all_tokens,18,math,computer science,400,400,0.03722952213133921
+all_tokens,18,math,physics,400,400,0.01328887843976199
+all_tokens,18,math,law,400,400,0.1823804600058712
+all_tokens,18,math,psychology,400,400,0.14943139646564116
+all_tokens,18,computer science,physics,400,400,0.04256512429677405
+all_tokens,18,computer science,law,400,400,0.09114024235595425
+all_tokens,18,computer science,psychology,400,400,0.05697394836410852
+all_tokens,18,physics,law,400,400,0.16297435865322385
+all_tokens,18,physics,psychology,400,400,0.12709189007087157
+all_tokens,18,law,psychology,400,400,0.023650719128649793
+all_tokens,19,math,computer science,400,400,0.03849912617300587
+all_tokens,19,math,physics,400,400,0.0168466625997849
+all_tokens,19,math,law,400,400,0.19377770372353148
+all_tokens,19,math,psychology,400,400,0.12602441217938443
+all_tokens,19,computer science,physics,400,400,0.0410102174134173
+all_tokens,19,computer science,law,400,400,0.15930075467271126
+all_tokens,19,computer science,psychology,400,400,0.0942221141337039
+all_tokens,19,physics,law,400,400,0.15672454628838056
+all_tokens,19,physics,psychology,400,400,0.09414911281749919
+all_tokens,19,law,psychology,400,400,0.027321913536840763
+all_tokens,20,math,computer science,400,400,0.030887725318357873
+all_tokens,20,math,physics,400,400,0.044429952925904834
+all_tokens,20,math,law,400,400,0.15878798129352428
+all_tokens,20,math,psychology,400,400,0.12046565170890805
+all_tokens,20,computer science,physics,400,400,0.044636138097738635
+all_tokens,20,computer science,law,400,400,0.1166570580347254
+all_tokens,20,computer science,psychology,400,400,0.07263141782109975
+all_tokens,20,physics,law,400,400,0.16679310571293898
+all_tokens,20,physics,psychology,400,400,0.11801608068135337
+all_tokens,20,law,psychology,400,400,0.03044296761739882
+all_tokens,21,math,computer science,400,400,0.04566897609761725
+all_tokens,21,math,physics,400,400,0.04340949312637458
+all_tokens,21,math,law,400,400,0.16171320659519775
+all_tokens,21,math,psychology,400,400,0.13037327583213681
+all_tokens,21,computer science,physics,400,400,0.07473537262405693
+all_tokens,21,computer science,law,400,400,0.1554958122475685
+all_tokens,21,computer science,psychology,400,400,0.1123454734717026
+all_tokens,21,physics,law,400,400,0.1675762134495279
+all_tokens,21,physics,psychology,400,400,0.10564588562882317
+all_tokens,21,law,psychology,400,400,0.08291428384945693
+all_tokens,22,math,computer science,400,400,0.041259686605981255
+all_tokens,22,math,physics,400,400,0.02468653773214059
+all_tokens,22,math,law,400,400,0.11972284081955846
+all_tokens,22,math,psychology,400,400,0.09876789166225727
+all_tokens,22,computer science,physics,400,400,0.06959750843233092
+all_tokens,22,computer science,law,400,400,0.09761560504534662
+all_tokens,22,computer science,psychology,400,400,0.050496137258609824
+all_tokens,22,physics,law,400,400,0.13239199836777069
+all_tokens,22,physics,psychology,400,400,0.12277847206696321
+all_tokens,22,law,psychology,400,400,0.03352070877302736
+all_tokens,23,math,computer science,400,400,0.0364760307885858
+all_tokens,23,math,physics,400,400,0.016614578255414555
+all_tokens,23,math,law,400,400,0.12423665451627205
+all_tokens,23,math,psychology,400,400,0.09259077791592119
+all_tokens,23,computer science,physics,400,400,0.04621154694470196
+all_tokens,23,computer science,law,400,400,0.10882878381221733
+all_tokens,23,computer science,psychology,400,400,0.0779090337526293
+all_tokens,23,physics,law,400,400,0.11927463522565009
+all_tokens,23,physics,psychology,400,400,0.09037800561071574
+all_tokens,23,law,psychology,400,400,0.018565392027252672

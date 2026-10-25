@@ -1,0 +1,70 @@
+{
+  "contract_version": "routing_sae_explorer_frontend_v1",
+  "status": "frozen",
+  "created_date": "2026-10-11",
+  "default_view": {
+    "group_type": "population",
+    "group_value": "all_tokens",
+    "edge_mode": "top1",
+    "meaning": "all 382685 Token trajectories represented through exact source-target aggregation of 8801755 Top-1 adjacent-layer segments",
+    "token_sampling": false,
+    "layout": "V02 frozen ForceAtlas2 LinLog three-seed consensus"
+  },
+  "backend_extension": {
+    "api_version": "routing_sae_explorer_api_v1_v04_extension",
+    "new_endpoint": {
+      "method": "GET",
+      "path": "/api/tokens/{token_row}/routing-top4",
+      "purpose": "Return the exact 24 by 4 expert selections and normalized routing weights for one Token",
+      "response_keys": ["token_row", "sample_id", "token_position", "layers", "matrix_shape", "warnings"]
+    },
+    "source": "validated routing_top4.npz",
+    "query_strategy": "load expert_id as uint8 and routing_weight as float32 once in one read-only server worker",
+    "derived_large_cache": false
+  },
+  "layout_regions": [
+    "global toolbar",
+    "token browser",
+    "all-token routing graph",
+    "24 by 32 selected-token routing matrix",
+    "selected expert contexts",
+    "six-layer SAE feature activations"
+  ],
+  "required_interactions": [
+    "switch graph population, domain, token class or prompt segment without recomputing coordinates",
+    "switch Top-1 transition counts and Top-4 weighted co-occurrence",
+    "search and select a Token",
+    "overlay the selected Token's 24-layer Top-1 trajectory on the global graph",
+    "inspect exact Top-4 weights in a 24 by 32 matrix",
+    "select an expert node from the graph or routing matrix",
+    "inspect high-routing-weight expert contexts",
+    "switch among SAE layers 3, 7, 11, 15, 19 and 23",
+    "zoom, pan and reset the global graph"
+  ],
+  "visual_encoding": {
+    "global_edges": "opacity and width are monotonic in aggregated edge value",
+    "graph_nodes": "color encodes layer; size reflects selected-group Top-1 rate",
+    "selected_trajectory": "warm high-contrast line and rings",
+    "routing_matrix": "cell intensity encodes routing weight; rank-1 cell has an additional outline",
+    "sae_features": "horizontal bars encode activation within the selected Token and layer"
+  },
+  "responsive_breakpoints": {
+    "desktop": ">= 1280px: three-column research workspace",
+    "tablet": "800px to 1279px: two-column workspace with lower linked panels",
+    "mobile": "< 800px: single-column reading and interaction order"
+  },
+  "accessibility": [
+    "native form controls and buttons",
+    "visible keyboard focus",
+    "canvas accessible labels and textual selected-state summaries",
+    "color is paired with labels, rank outlines or numeric values",
+    "reduced-motion preference is respected"
+  ],
+  "scientific_boundaries": [
+    "The global graph represents every Token through exact aggregation; it does not draw 8.8 million separate DOM or Canvas paths.",
+    "Coordinates are layout-derived and fixed across filters.",
+    "Top-4 edges are weighted co-occurrence and not causal flow.",
+    "Expert contexts and SAE activations are evidence displays, not automatically validated semantic labels.",
+    "The UI must never invent feature semantics when no validated global feature-context cache exists."
+  ]
+}

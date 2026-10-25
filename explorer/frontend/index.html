@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="GPT-OSS-20B Token routing、专家上下文与六层 SAE feature 交互分析页面">
+  <title>GPT-OSS Routing × SAE Explorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand-block">
+      <div class="brand-mark" aria-hidden="true">R×S</div>
+      <div>
+        <h1>GPT-OSS Routing × SAE Explorer</h1>
+        <p>382,685 Tokens · 24 MoE Layers · 32 Experts · 6 SAE Layers</p>
+      </div>
+    </div>
+    <div class="header-status" id="serviceStatus" role="status" aria-live="polite">
+      <span class="status-dot" aria-hidden="true"></span>
+      正在连接数据服务
+    </div>
+  </header>
+
+  <section class="global-toolbar" aria-label="全局图筛选">
+    <label>
+      <span>筛选维度</span>
+      <select id="groupType">
+        <option value="population">总体</option>
+        <option value="domain">领域</option>
+        <option value="token_class">Token 类别</option>
+        <option value="prompt_segment">Prompt 区段</option>
+      </select>
+    </label>
+    <label>
+      <span>筛选值</span>
+      <select id="groupValue"></select>
+    </label>
+    <label>
+      <span>连线语义</span>
+      <select id="edgeMode">
+        <option value="top1">Top-1 主导专家跳转</option>
+        <option value="top4">Top-4 加权共现</option>
+      </select>
+    </label>
+    <label>
+      <span>最多显示边</span>
+      <select id="edgeLimit">
+        <option value="5000">5,000</option>
+        <option value="10000">10,000</option>
+        <option value="25000" selected>25,000（完整优先）</option>
+      </select>
+    </label>
+    <button type="button" class="button secondary" id="resetGraph">重置图视角</button>
+    <p class="toolbar-note" id="graphScopeNote">默认展示全部 Token 的精确聚合 Top-1 轨迹。</p>
+  </section>
+
+  <main class="workspace">
+    <aside class="panel token-panel" aria-labelledby="tokenBrowserTitle">
+      <div class="panel-heading">
+        <div>
+          <p class="eyebrow">TOKEN BROWSER</p>
+          <h2 id="tokenBrowserTitle">查找与定位 Token</h2>
+        </div>
+        <span class="panel-count" id="searchCount">—</span>
+      </div>
+
+      <form id="searchForm" class="search-form">
+        <label class="search-field">
+          <span class="sr-only">搜索 Token 文本</span>
+          <input id="tokenQuery" type="search" placeholder="输入 Token 文本，例如 can" autocomplete="off">
+        </label>
+        <div class="filter-grid">
+          <label><span>领域</span><select id="searchDomain"><option value="">全部</option></select></label>
+          <label><span>类别</span><select id="searchClass"><option value="">全部</option></select></label>
+          <label><span>区段</span><select id="searchSegment"><option value="">全部</option></select></label>
+          <label class="checkbox-label"><input id="primaryOnly" type="checkbox" checked>排除首 Token</label>
+        </div>
+        <button class="button primary" type="submit">搜索</button>
+      </form>
+
+      <section class="selected-token" id="selectedTokenSummary" aria-live="polite">
+        <p class="empty-state">选择一个 Token 后，将在所有面板中联动高亮。</p>
+      </section>
+
+      <div class="list-heading">
+        <h3>搜索结果</h3>
+        <span id="resultRange"></span>
+      </div>
+      <div class="token-results" id="tokenResults" role="list"></div>
+
+      <div class="list-heading sample-heading">
+        <h3>当前样本邻近 Token</h3>
+        <span id="sampleTokenCount"></span>
+      </div>
+      <div class="sample-token-strip" id="sampleTokens" aria-label="当前样本邻近 Token"></div>
+    </aside>
+
+    <section class="panel graph-panel" aria-labelledby="graphTitle">
+      <div class="panel-heading graph-heading">
+        <div>
+          <p class="eyebrow">GLOBAL ROUTING MAP</p>
+          <h2 id="graphTitle">全 Token Routing 线团图</h2>
+        </div>
+        <div class="graph-metrics" id="graphMetrics" aria-live="polite"></div>
+      </div>
+      <div class="canvas-stage" id="graphStage">
+        <canvas id="routingGraph" role="img" aria-label="全部 Token 的跨层专家路由网络图"></canvas>
+        <div class="canvas-tooltip" id="graphTooltip" hidden></div>
+        <div class="loading-overlay" id="graphLoading">正在载入全量聚合路由…</div>
+      </div>
+      <div class="graph-footer">
+        <div class="layer-legend" aria-label="节点颜色表示层">
+          <span>Layer 0</span><span class="legend-gradient" aria-hidden="true"></span><span>Layer 23</span>
+        </div>
+        <p>滚轮缩放 · 拖动平移 · 点击节点查看专家上下文 · 橙色为选中 Token 的 Top‑1 路径</p>
+      </div>
+    </section>
+
+    <section class="panel matrix-panel" aria-labelledby="matrixTitle">
+      <div class="panel-heading compact-heading">
+        <div>
+          <p class="eyebrow">TOKEN ROUTING</p>
+          <h2 id="matrixTitle">24 × 32 Routing 矩阵</h2>
+        </div>
+        <span class="panel-count" id="matrixToken">未选择</span>
+      </div>
+      <div class="matrix-stage" id="matrixStage">
+        <canvas id="routingMatrix" role="img" aria-label="选中 Token 在24层32位专家上的Top-4路由权重矩阵"></canvas>
+        <div class="canvas-tooltip" id="matrixTooltip" hidden></div>
+        <p class="empty-state matrix-empty" id="matrixEmpty">选择 Token 后显示每层 Top‑4 专家与归一化权重。</p>
+      </div>
+      <div class="matrix-legend">
+        <span><i class="weight-swatch"></i>权重越深越高</span>
+        <span><i class="rank-one-swatch"></i>橙框 = Rank 1</span>
+      </div>
+      <p class="panel-footnote" id="matrixSummary">矩阵显示专家选择，不代表因果信息流。</p>
+    </section>
+
+    <section class="panel contexts-panel" aria-labelledby="contextsTitle">
+      <div class="panel-heading compact-heading">
+        <div>
+          <p class="eyebrow">EXPERT EVIDENCE</p>
+          <h2 id="contextsTitle">专家高权重上下文</h2>
+        </div>
+        <label class="inline-select"><span>证据范围</span><select id="contextDomain"><option value="">总体</option></select></label>
+      </div>
+      <div class="selected-node-summary" id="selectedNodeSummary">点击主图节点或矩阵单元格以查看对应专家。</div>
+      <div class="context-grid" id="contextGrid"></div>
+      <p class="panel-footnote">这些是高 routing weight 示例，用于观察模式，不能单独证明专家功能专门化。</p>
+    </section>
+
+    <section class="panel sae-panel" aria-labelledby="saeTitle">
+      <div class="panel-heading compact-heading">
+        <div>
+          <p class="eyebrow">SPARSE FEATURES</p>
+          <h2 id="saeTitle">六层 SAE Feature 激活</h2>
+        </div>
+        <span class="panel-count" id="saeToken">未选择</span>
+      </div>
+      <div class="sae-tabs" id="saeTabs" role="group" aria-label="选择 SAE 层"></div>
+      <div class="sae-metrics" id="saeMetrics"></div>
+      <div class="feature-list" id="featureList">
+        <p class="empty-state">选择 Token 后显示稀疏特征。</p>
+      </div>
+      <p class="panel-footnote" id="saeBoundary">当前只显示 feature ID 与激活强度；没有验证过的全局语义时不会自动命名。</p>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

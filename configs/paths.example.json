@@ -1,0 +1,9 @@
+{
+  "analysis_root": "/path/to/private/mmlu_pro_formal_2000_analysis_v1",
+  "explorer_cache_dir": "/path/to/private/cache/v01",
+  "explorer_layout_dir": "/path/to/private/layout/v02",
+  "explorer_density_dir": "/path/to/private/layout/v02_top1_density",
+  "explorer_api_contract": "/path/to/private/contracts/v03_api_contract.json",
+  "routing_top4": "/path/to/private/routing_top4.npz",
+  "neuronpedia_semantics_root": "/path/to/private/neuronpedia_gpt_oss_20b_v1"
+}
